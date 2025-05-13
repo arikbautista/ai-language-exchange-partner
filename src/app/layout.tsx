@@ -1,9 +1,9 @@
-import React, { ReactNode } from 'react';
-import Footer from '@/app/components/Footer';
+import React, { ReactNode } from 'react'
+import Footer from '@/app/components/Footer'
 import type { Metadata } from 'next'
 import '@/app/globals.css'
-import ThemeToggle from './components/ThemeToggle';
-import CssBaseline from '@mui/material/CssBaseline';
+import ThemeToggle from './components/ThemeToggle'
+import CssBaseline from '@mui/material/CssBaseline'
 
 export const metadata: Metadata = {
   title: 'Create Next App',
@@ -15,15 +15,21 @@ const Layout = ({ children }: { children: ReactNode }) => {
     <ThemeToggle>
       <CssBaseline />
       <html lang="en">
-        <body style={{ display: 'flex', flexDirection: 'column', minHeight: '100vh'}}>
+        <body
+          style={{
+            display: 'flex',
+            flexDirection: 'column',
+            minHeight: '100vh',
+          }}
+        >
           <div style={{ flex: 1 }}>
             <main>{children}</main>
           </div>
-          <Footer/>
+          <Footer />
         </body>
       </html>
     </ThemeToggle>
-  );
-};
+  )
+}
 
-export default Layout;
+export default Layout
