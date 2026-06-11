@@ -1,2 +1,0 @@
-pnpm prettier --write .
-pnpm eslint .
