@@ -4,13 +4,7 @@ A mobile-first PWA giving intermediate Japanese learners (JLPT N4–N2) a low-pr
 
 ## Status
 
-Pre-implementation. The approved product design spec and milestone roadmap live in Notion (links below). No application code exists yet — the next step is brainstorming and spec'ing milestone M0.
-
-## Source of truth
-
-- Notion root page: [AI Japanese Language Exchange Partner](https://app.notion.com/p/1f23b7663ce680e4bdbcc60150df7912)
-  - **Product Design Spec** — approved 2026-06-10
-  - **Roadmap & Milestones** — M0–M5; each milestone gets its own brainstorm → spec → plan cycle before implementation
+Pre-implementation. The product design and milestone roadmap below were approved on 2026-06-10. No application code exists yet — the next step is brainstorming and spec'ing milestone M0.
 
 ## Key product decisions (approved, don't relitigate without the user)
 
@@ -30,8 +24,22 @@ Pre-implementation. The approved product design spec and milestone roadmap live 
 - kuroshiro + kuromoji for tokenization and the furigana toggle
 - Vercel hosting; PostHog analytics
 
+## Roadmap
+
+Milestone-based, deliberately no calendar deadlines. Each milestone gets its own brainstorm → spec → plan cycle before implementation.
+
+| Milestone | Goal | Done when |
+|---|---|---|
+| M0 | Foundation: scaffold, Supabase auth, Drizzle migrations, Vercel deploy, PWA manifest | Sign in on a phone to an empty app in production |
+| M1 | Text conversation core: streaming chat, JLPT-tuned prompt, persistence, mobile UI, TTS bake-off | Real Japanese text conversation on a phone in production |
+| M2 | Voice: push-to-talk, STT, TTS playback, mobile audio quirks | Full voice loop works on a real phone |
+| M3 | Corrections + recap: parallel correction pass, tap-to-reveal UI, session recap, vocab/mistake extraction | Sessions end with a recap |
+| M4 | Memory, scenarios & personas, furigana toggle | Partner remembers you across sessions |
+| M5 | Beta launch: limits, cost logging, analytics, landing page, ~20 beta users | Strangers using it, retention data flowing |
+
+Post-beta backlog (ordered): SRS cards from own mistakes → Stripe + paid tier → realtime call mode (premium) → pronunciation feedback.
+
 ## Working conventions
 
-- Milestone-based roadmap (M0 foundation → M5 beta launch), deliberately no calendar deadlines.
 - Each milestone ends with something working and deployed.
 - Cost guardrails from day one: log per-turn API cost; the free-tier daily message limit is a config value, never hardcoded.

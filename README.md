@@ -33,4 +33,4 @@ Intermediate learners have great tools for vocab (Anki, WaniKani) and grammar (G
 
 Next.js (App Router) · TypeScript · Tailwind + shadcn/ui · Supabase (Postgres + Auth) · Drizzle · Vercel AI SDK (Claude Sonnet partner / Haiku corrections) · OpenAI STT · Google Cloud or OpenAI TTS · kuroshiro/kuromoji · Vercel · PostHog
 
-See `CLAUDE.md` for agent-facing context and links to the full design spec in Notion.
+See `CLAUDE.md` for the full design decisions and roadmap details.
