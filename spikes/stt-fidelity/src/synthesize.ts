@@ -20,17 +20,25 @@ async function synthOpenai(text: string, file: string): Promise<void> {
     input: text,
     response_format: "mp3",
   });
-  fs.writeFileSync(file, Buffer.from(await res.arrayBuffer()));
+  const tmp = file + ".tmp";
+  fs.writeFileSync(tmp, Buffer.from(await res.arrayBuffer()));
+  fs.renameSync(tmp, file);
 }
 
 function synthKyoko(text: string, file: string): void {
-  execFileSync("say", [
-    "-v", "Kyoko",
-    "-o", file,
-    "--file-format=WAVE",
-    "--data-format=LEI16@22050",
-    text,
-  ]);
+  const tmp = file + ".tmp";
+  try {
+    execFileSync("say", [
+      "-v", "Kyoko",
+      "-o", tmp,
+      "--file-format=WAVE",
+      "--data-format=LEI16@22050",
+      text,
+    ]);
+    fs.renameSync(tmp, file);
+  } finally {
+    fs.rmSync(tmp, { force: true });
+  }
 }
 
 async function main() {
