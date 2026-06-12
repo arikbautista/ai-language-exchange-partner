@@ -75,13 +75,15 @@ async function transcribeLlm(p: LlmPath, file: string, voice: Voice): Promise<st
       },
     ],
   });
-  return res.choices[0]?.message?.content ?? "";
+  const text = res.choices[0]?.message?.content ?? "";
+  if (!text) console.warn(`[WARN] empty transcript from ${p.model} for ${file}`);
+  return text;
 }
 
 async function main() {
   fs.mkdirSync(OUT_DIR, { recursive: true });
   const entries = load();
-  const done = new Set(entries.map((e) => `${e.sentenceId}:${e.voice}:${e.pathId}`));
+  const done = new Set(entries.map((e) => `${e.sentenceId}:${e.voice}:${e.pathId}:${e.model}`));
   let ran = 0, skipped = 0, estUsd = 0;
 
   for (const s of SENTENCES) {
@@ -89,7 +91,7 @@ async function main() {
       const file = audioFileFor(s, voice);
       if (!fs.existsSync(file)) throw new Error(`missing audio ${file} — run synthesize first`);
       for (const p of PATHS) {
-        const key = `${s.id}:${voice}:${p.id}`;
+        const key = `${s.id}:${voice}:${p.id}:${p.model}`;
         if (done.has(key)) { skipped++; continue; }
         const transcript =
           p.kind === "stt" ? await transcribeStt(p, file) : await transcribeLlm(p, file, voice);
@@ -98,7 +100,9 @@ async function main() {
           transcript, at: new Date().toISOString(),
         });
         // write after every call: crash-safe, never re-spends
-        fs.writeFileSync(TRANSCRIPTS_FILE, JSON.stringify(entries, null, 2));
+        const tmp = TRANSCRIPTS_FILE + ".tmp";
+        fs.writeFileSync(tmp, JSON.stringify(entries, null, 2));
+        fs.renameSync(tmp, TRANSCRIPTS_FILE);
         estUsd += EST_USD[p.kind];
         ran++;
         console.log(`${key} → ${transcript}`);
