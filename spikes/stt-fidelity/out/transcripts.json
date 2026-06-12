@@ -1,0 +1,1682 @@
+[
+  {
+    "sentenceId": "p1",
+    "voice": "openai",
+    "pathId": "4o-bare",
+    "model": "gpt-4o-transcribe",
+    "transcript": "私は毎朝コーヒーが飲みます。",
+    "at": "2026-06-12T02:21:32.402Z"
+  },
+  {
+    "sentenceId": "p1",
+    "voice": "openai",
+    "pathId": "4o-verbatim-ja",
+    "model": "gpt-4o-transcribe",
+    "transcript": "私は毎朝コーヒーが飲みます。",
+    "at": "2026-06-12T02:21:32.978Z"
+  },
+  {
+    "sentenceId": "p1",
+    "voice": "openai",
+    "pathId": "4o-verbatim-en",
+    "model": "gpt-4o-transcribe",
+    "transcript": "私は毎朝コーヒーが飲みます。",
+    "at": "2026-06-12T02:21:33.690Z"
+  },
+  {
+    "sentenceId": "p1",
+    "voice": "openai",
+    "pathId": "whisper-bare",
+    "model": "whisper-1",
+    "transcript": "私は毎朝コーヒーが飲みます。",
+    "at": "2026-06-12T02:21:35.206Z"
+  },
+  {
+    "sentenceId": "p1",
+    "voice": "openai",
+    "pathId": "audio-llm",
+    "model": "gpt-audio-2025-08-28",
+    "transcript": "承知しました。以下の通り、そのまま文字起こしいたします。\n\n私は、毎朝、コーヒーが飲みます。",
+    "at": "2026-06-12T02:21:51.594Z"
+  },
+  {
+    "sentenceId": "p1",
+    "voice": "kyoko",
+    "pathId": "4o-bare",
+    "model": "gpt-4o-transcribe",
+    "transcript": "私は毎朝コーヒーが飲みます。",
+    "at": "2026-06-12T02:21:52.255Z"
+  },
+  {
+    "sentenceId": "p1",
+    "voice": "kyoko",
+    "pathId": "4o-verbatim-ja",
+    "model": "gpt-4o-transcribe",
+    "transcript": "私は毎朝コーヒーが飲みます。",
+    "at": "2026-06-12T02:21:52.904Z"
+  },
+  {
+    "sentenceId": "p1",
+    "voice": "kyoko",
+    "pathId": "4o-verbatim-en",
+    "model": "gpt-4o-transcribe",
+    "transcript": "わたしは毎朝コーヒーが飲みます。",
+    "at": "2026-06-12T02:21:53.652Z"
+  },
+  {
+    "sentenceId": "p1",
+    "voice": "kyoko",
+    "pathId": "whisper-bare",
+    "model": "whisper-1",
+    "transcript": "私は毎朝コーヒーが飲みます。",
+    "at": "2026-06-12T02:21:54.740Z"
+  },
+  {
+    "sentenceId": "p1",
+    "voice": "kyoko",
+    "pathId": "audio-llm",
+    "model": "gpt-audio-2025-08-28",
+    "transcript": "「私は、毎朝コーヒーが飲みます。」",
+    "at": "2026-06-12T02:21:55.807Z"
+  },
+  {
+    "sentenceId": "p2",
+    "voice": "openai",
+    "pathId": "4o-bare",
+    "model": "gpt-4o-transcribe",
+    "transcript": "明日友達は会います。",
+    "at": "2026-06-12T02:21:56.282Z"
+  },
+  {
+    "sentenceId": "p2",
+    "voice": "openai",
+    "pathId": "4o-verbatim-ja",
+    "model": "gpt-4o-transcribe",
+    "transcript": "明日、友達は会います。",
+    "at": "2026-06-12T02:21:56.856Z"
+  },
+  {
+    "sentenceId": "p2",
+    "voice": "openai",
+    "pathId": "4o-verbatim-en",
+    "model": "gpt-4o-transcribe",
+    "transcript": "明日、友達は会います。",
+    "at": "2026-06-12T02:21:57.436Z"
+  },
+  {
+    "sentenceId": "p2",
+    "voice": "openai",
+    "pathId": "whisper-bare",
+    "model": "whisper-1",
+    "transcript": "明日、友達は会います。",
+    "at": "2026-06-12T02:21:58.055Z"
+  },
+  {
+    "sentenceId": "p2",
+    "voice": "openai",
+    "pathId": "audio-llm",
+    "model": "gpt-audio-2025-08-28",
+    "transcript": "承知しました。以下はそのまま書き起こしです。\n\n明日、友達は会います。",
+    "at": "2026-06-12T02:21:58.795Z"
+  },
+  {
+    "sentenceId": "p2",
+    "voice": "kyoko",
+    "pathId": "4o-bare",
+    "model": "gpt-4o-transcribe",
+    "transcript": "まず、友達は会います。",
+    "at": "2026-06-12T02:21:59.383Z"
+  },
+  {
+    "sentenceId": "p2",
+    "voice": "kyoko",
+    "pathId": "4o-verbatim-ja",
+    "model": "gpt-4o-transcribe",
+    "transcript": "明日、友達は会います。",
+    "at": "2026-06-12T02:22:00.004Z"
+  },
+  {
+    "sentenceId": "p2",
+    "voice": "kyoko",
+    "pathId": "4o-verbatim-en",
+    "model": "gpt-4o-transcribe",
+    "transcript": "まず、友達は会います。",
+    "at": "2026-06-12T02:22:00.457Z"
+  },
+  {
+    "sentenceId": "p2",
+    "voice": "kyoko",
+    "pathId": "whisper-bare",
+    "model": "whisper-1",
+    "transcript": "明日、友達は会います。",
+    "at": "2026-06-12T02:22:02.332Z"
+  },
+  {
+    "sentenceId": "p2",
+    "voice": "kyoko",
+    "pathId": "audio-llm",
+    "model": "gpt-audio-2025-08-28",
+    "transcript": "わかりました。続きがあれば教えてください。そのまま文字起こししますので、よろしくお願いします。",
+    "at": "2026-06-12T02:22:03.257Z"
+  },
+  {
+    "sentenceId": "p3",
+    "voice": "openai",
+    "pathId": "4o-bare",
+    "model": "gpt-4o-transcribe",
+    "transcript": "電車で学校を行きます。",
+    "at": "2026-06-12T02:22:03.954Z"
+  },
+  {
+    "sentenceId": "p3",
+    "voice": "openai",
+    "pathId": "4o-verbatim-ja",
+    "model": "gpt-4o-transcribe",
+    "transcript": "電車で学校を行きます。",
+    "at": "2026-06-12T02:22:04.390Z"
+  },
+  {
+    "sentenceId": "p3",
+    "voice": "openai",
+    "pathId": "4o-verbatim-en",
+    "model": "gpt-4o-transcribe",
+    "transcript": "電車で学校を行きます。",
+    "at": "2026-06-12T02:22:04.980Z"
+  },
+  {
+    "sentenceId": "p3",
+    "voice": "openai",
+    "pathId": "whisper-bare",
+    "model": "whisper-1",
+    "transcript": "電車で学校を行きます。",
+    "at": "2026-06-12T02:22:06.124Z"
+  },
+  {
+    "sentenceId": "p3",
+    "voice": "openai",
+    "pathId": "audio-llm",
+    "model": "gpt-audio-2025-08-28",
+    "transcript": "了解しました。「電車で学校を行きます」という発言を文字起こしします。以下がそのままの文字起こしです。\n\n電車で学校を行きます。",
+    "at": "2026-06-12T02:22:07.362Z"
+  },
+  {
+    "sentenceId": "p3",
+    "voice": "kyoko",
+    "pathId": "4o-bare",
+    "model": "gpt-4o-transcribe",
+    "transcript": "電車で学校へ行きます。",
+    "at": "2026-06-12T02:22:07.812Z"
+  },
+  {
+    "sentenceId": "p3",
+    "voice": "kyoko",
+    "pathId": "4o-verbatim-ja",
+    "model": "gpt-4o-transcribe",
+    "transcript": "電車で学校を行きます。",
+    "at": "2026-06-12T02:22:08.248Z"
+  },
+  {
+    "sentenceId": "p3",
+    "voice": "kyoko",
+    "pathId": "4o-verbatim-en",
+    "model": "gpt-4o-transcribe",
+    "transcript": "電車で学校を行きます。",
+    "at": "2026-06-12T02:22:08.773Z"
+  },
+  {
+    "sentenceId": "p3",
+    "voice": "kyoko",
+    "pathId": "whisper-bare",
+    "model": "whisper-1",
+    "transcript": "電車で学校を行きます。",
+    "at": "2026-06-12T02:22:09.992Z"
+  },
+  {
+    "sentenceId": "p3",
+    "voice": "kyoko",
+    "pathId": "audio-llm",
+    "model": "gpt-audio-2025-08-28",
+    "transcript": "はい、わかりました。「電車で学校を行きます。」という文章ですね。文法的には少し違和感がありますが、このまま記録します。ご希望の内容をそのまま示しています。他に何か続けたいことはありますか？",
+    "at": "2026-06-12T02:22:11.572Z"
+  },
+  {
+    "sentenceId": "p4",
+    "voice": "openai",
+    "pathId": "4o-bare",
+    "model": "gpt-4o-transcribe",
+    "transcript": "私な名前は田中です。",
+    "at": "2026-06-12T02:22:12.226Z"
+  },
+  {
+    "sentenceId": "p4",
+    "voice": "openai",
+    "pathId": "4o-verbatim-ja",
+    "model": "gpt-4o-transcribe",
+    "transcript": "私が名前は田中です。",
+    "at": "2026-06-12T02:22:12.739Z"
+  },
+  {
+    "sentenceId": "p4",
+    "voice": "openai",
+    "pathId": "4o-verbatim-en",
+    "model": "gpt-4o-transcribe",
+    "transcript": "私が名前は田中です。",
+    "at": "2026-06-12T02:22:13.280Z"
+  },
+  {
+    "sentenceId": "p4",
+    "voice": "openai",
+    "pathId": "whisper-bare",
+    "model": "whisper-1",
+    "transcript": "私の名前は田中です。",
+    "at": "2026-06-12T02:22:14.210Z"
+  },
+  {
+    "sentenceId": "p4",
+    "voice": "openai",
+    "pathId": "audio-llm",
+    "model": "gpt-audio-2025-08-28",
+    "transcript": "わかりました。「私は名前は田中です」と書き起こしました。これには文法の繰り返し（「は」の使用）が含まれていますが、話された通りに正確に記録しました。",
+    "at": "2026-06-12T02:22:15.252Z"
+  },
+  {
+    "sentenceId": "p4",
+    "voice": "kyoko",
+    "pathId": "4o-bare",
+    "model": "gpt-4o-transcribe",
+    "transcript": "私が名前は田中です。",
+    "at": "2026-06-12T02:22:15.743Z"
+  },
+  {
+    "sentenceId": "p4",
+    "voice": "kyoko",
+    "pathId": "4o-verbatim-ja",
+    "model": "gpt-4o-transcribe",
+    "transcript": "私が名前は田中です。",
+    "at": "2026-06-12T02:22:16.299Z"
+  },
+  {
+    "sentenceId": "p4",
+    "voice": "kyoko",
+    "pathId": "4o-verbatim-en",
+    "model": "gpt-4o-transcribe",
+    "transcript": "私が名前は田中です。",
+    "at": "2026-06-12T02:22:16.812Z"
+  },
+  {
+    "sentenceId": "p4",
+    "voice": "kyoko",
+    "pathId": "whisper-bare",
+    "model": "whisper-1",
+    "transcript": "私が、名前は田中です。",
+    "at": "2026-06-12T02:22:18.065Z"
+  },
+  {
+    "sentenceId": "p4",
+    "voice": "kyoko",
+    "pathId": "audio-llm",
+    "model": "gpt-audio-2025-08-28",
+    "transcript": "承知しました。次の発話を文字起こしいたしますので、お話しください。",
+    "at": "2026-06-12T02:22:18.757Z"
+  },
+  {
+    "sentenceId": "v1",
+    "voice": "openai",
+    "pathId": "4o-bare",
+    "model": "gpt-4o-transcribe",
+    "transcript": "昨日、映画を見ます。",
+    "at": "2026-06-12T02:22:19.263Z"
+  },
+  {
+    "sentenceId": "v1",
+    "voice": "openai",
+    "pathId": "4o-verbatim-ja",
+    "model": "gpt-4o-transcribe",
+    "transcript": "昨日、映画を見ます。",
+    "at": "2026-06-12T02:22:19.845Z"
+  },
+  {
+    "sentenceId": "v1",
+    "voice": "openai",
+    "pathId": "4o-verbatim-en",
+    "model": "gpt-4o-transcribe",
+    "transcript": "昨日、映画を見ます。",
+    "at": "2026-06-12T02:22:20.307Z"
+  },
+  {
+    "sentenceId": "v1",
+    "voice": "openai",
+    "pathId": "whisper-bare",
+    "model": "whisper-1",
+    "transcript": "きのう えいがをみます。",
+    "at": "2026-06-12T02:22:20.870Z"
+  },
+  {
+    "sentenceId": "v1",
+    "voice": "openai",
+    "pathId": "audio-llm",
+    "model": "gpt-audio-2025-08-28",
+    "transcript": "かしこまりました。「昨日、映画を見ます。」と書き起こしました。文法の間違いやフィラーも含め、そのまま書き起こしています。ご要望に応じて、他にも文字起こしが必要な内容があればお知らせください。",
+    "at": "2026-06-12T02:22:22.834Z"
+  },
+  {
+    "sentenceId": "v1",
+    "voice": "kyoko",
+    "pathId": "4o-bare",
+    "model": "gpt-4o-transcribe",
+    "transcript": "昨日、映画を見ます。",
+    "at": "2026-06-12T02:22:23.404Z"
+  },
+  {
+    "sentenceId": "v1",
+    "voice": "kyoko",
+    "pathId": "4o-verbatim-ja",
+    "model": "gpt-4o-transcribe",
+    "transcript": "昨日、映画を見ます。",
+    "at": "2026-06-12T02:22:23.937Z"
+  },
+  {
+    "sentenceId": "v1",
+    "voice": "kyoko",
+    "pathId": "4o-verbatim-en",
+    "model": "gpt-4o-transcribe",
+    "transcript": "昨日、映画を見ます。",
+    "at": "2026-06-12T02:22:24.396Z"
+  },
+  {
+    "sentenceId": "v1",
+    "voice": "kyoko",
+    "pathId": "whisper-bare",
+    "model": "whisper-1",
+    "transcript": "昨日、映画を観ます。",
+    "at": "2026-06-12T02:22:25.837Z"
+  },
+  {
+    "sentenceId": "v1",
+    "voice": "kyoko",
+    "pathId": "audio-llm",
+    "model": "gpt-audio-2025-08-28",
+    "transcript": "いいですね。どんな映画を見たんですか？",
+    "at": "2026-06-12T02:22:26.566Z"
+  },
+  {
+    "sentenceId": "v2",
+    "voice": "openai",
+    "pathId": "4o-bare",
+    "model": "gpt-4o-transcribe",
+    "transcript": "寒いだからコートを着ました。",
+    "at": "2026-06-12T02:22:27.217Z"
+  },
+  {
+    "sentenceId": "v2",
+    "voice": "openai",
+    "pathId": "4o-verbatim-ja",
+    "model": "gpt-4o-transcribe",
+    "transcript": "寒いだからコートを着ました。",
+    "at": "2026-06-12T02:22:27.692Z"
+  },
+  {
+    "sentenceId": "v2",
+    "voice": "openai",
+    "pathId": "4o-verbatim-en",
+    "model": "gpt-4o-transcribe",
+    "transcript": "寒いだから、コートを着ました。",
+    "at": "2026-06-12T02:22:28.124Z"
+  },
+  {
+    "sentenceId": "v2",
+    "voice": "openai",
+    "pathId": "whisper-bare",
+    "model": "whisper-1",
+    "transcript": "寒いだからコートを着ました。",
+    "at": "2026-06-12T02:22:29.226Z"
+  },
+  {
+    "sentenceId": "v2",
+    "voice": "openai",
+    "pathId": "audio-llm",
+    "model": "gpt-audio-2025-08-28",
+    "transcript": "わかりました。「寒いだから、コートを着ました。」",
+    "at": "2026-06-12T02:22:30.157Z"
+  },
+  {
+    "sentenceId": "v2",
+    "voice": "kyoko",
+    "pathId": "4o-bare",
+    "model": "gpt-4o-transcribe",
+    "transcript": "寒いだからコートを着ました。",
+    "at": "2026-06-12T02:22:30.647Z"
+  },
+  {
+    "sentenceId": "v2",
+    "voice": "kyoko",
+    "pathId": "4o-verbatim-ja",
+    "model": "gpt-4o-transcribe",
+    "transcript": "寒いだから、コートを着ました。",
+    "at": "2026-06-12T02:22:31.217Z"
+  },
+  {
+    "sentenceId": "v2",
+    "voice": "kyoko",
+    "pathId": "4o-verbatim-en",
+    "model": "gpt-4o-transcribe",
+    "transcript": "寒いだから、コートを着ました。",
+    "at": "2026-06-12T02:22:31.788Z"
+  },
+  {
+    "sentenceId": "v2",
+    "voice": "kyoko",
+    "pathId": "whisper-bare",
+    "model": "whisper-1",
+    "transcript": "寒いだからコートを着ました。",
+    "at": "2026-06-12T02:22:32.428Z"
+  },
+  {
+    "sentenceId": "v2",
+    "voice": "kyoko",
+    "pathId": "audio-llm",
+    "model": "gpt-audio-2025-08-28",
+    "transcript": "了解しました。以下が書き起こしです。\n\n寒いだから、コートを着ました。",
+    "at": "2026-06-12T02:22:33.305Z"
+  },
+  {
+    "sentenceId": "v3",
+    "voice": "openai",
+    "pathId": "4o-bare",
+    "model": "gpt-4o-transcribe",
+    "transcript": "漢字を読むできません。",
+    "at": "2026-06-12T02:22:33.811Z"
+  },
+  {
+    "sentenceId": "v3",
+    "voice": "openai",
+    "pathId": "4o-verbatim-ja",
+    "model": "gpt-4o-transcribe",
+    "transcript": "漢字を読むできません。",
+    "at": "2026-06-12T02:22:34.305Z"
+  },
+  {
+    "sentenceId": "v3",
+    "voice": "openai",
+    "pathId": "4o-verbatim-en",
+    "model": "gpt-4o-transcribe",
+    "transcript": "漢字を読むできません。",
+    "at": "2026-06-12T02:22:34.787Z"
+  },
+  {
+    "sentenceId": "v3",
+    "voice": "openai",
+    "pathId": "whisper-bare",
+    "model": "whisper-1",
+    "transcript": "漢字を読むできません。",
+    "at": "2026-06-12T02:22:35.276Z"
+  },
+  {
+    "sentenceId": "v3",
+    "voice": "openai",
+    "pathId": "audio-llm",
+    "model": "gpt-audio-2025-08-28",
+    "transcript": "承知しました。もし漢字で書かれた文章がある場合、ひらがなでお伝えするなどの対応も可能です。何かお手伝いできることがあれば教えてください。",
+    "at": "2026-06-12T02:22:36.347Z"
+  },
+  {
+    "sentenceId": "v3",
+    "voice": "kyoko",
+    "pathId": "4o-bare",
+    "model": "gpt-4o-transcribe",
+    "transcript": "漢字を読むできません。",
+    "at": "2026-06-12T02:22:36.831Z"
+  },
+  {
+    "sentenceId": "v3",
+    "voice": "kyoko",
+    "pathId": "4o-verbatim-ja",
+    "model": "gpt-4o-transcribe",
+    "transcript": "漢字を読めできません。",
+    "at": "2026-06-12T02:22:37.399Z"
+  },
+  {
+    "sentenceId": "v3",
+    "voice": "kyoko",
+    "pathId": "4o-verbatim-en",
+    "model": "gpt-4o-transcribe",
+    "transcript": "漢字を読むできません。",
+    "at": "2026-06-12T02:22:37.954Z"
+  },
+  {
+    "sentenceId": "v3",
+    "voice": "kyoko",
+    "pathId": "whisper-bare",
+    "model": "whisper-1",
+    "transcript": "漢字を読むできません。",
+    "at": "2026-06-12T02:22:38.430Z"
+  },
+  {
+    "sentenceId": "v3",
+    "voice": "kyoko",
+    "pathId": "audio-llm",
+    "model": "gpt-audio-2025-08-28",
+    "transcript": "はい、漢字を読むことができます。何か読みたい漢字の文章や単語があればお知らせください。正確にお手伝いします。",
+    "at": "2026-06-12T02:22:39.284Z"
+  },
+  {
+    "sentenceId": "o1",
+    "voice": "openai",
+    "pathId": "4o-bare",
+    "model": "gpt-4o-transcribe",
+    "transcript": "私は日本に行きたいとても。",
+    "at": "2026-06-12T02:22:39.751Z"
+  },
+  {
+    "sentenceId": "o1",
+    "voice": "openai",
+    "pathId": "4o-verbatim-ja",
+    "model": "gpt-4o-transcribe",
+    "transcript": "私は日本に行きたいとても。",
+    "at": "2026-06-12T02:22:40.322Z"
+  },
+  {
+    "sentenceId": "o1",
+    "voice": "openai",
+    "pathId": "4o-verbatim-en",
+    "model": "gpt-4o-transcribe",
+    "transcript": "私は日本に行きたいとても。",
+    "at": "2026-06-12T02:22:41.045Z"
+  },
+  {
+    "sentenceId": "o1",
+    "voice": "openai",
+    "pathId": "whisper-bare",
+    "model": "whisper-1",
+    "transcript": "私は日本に行きたいとても。",
+    "at": "2026-06-12T02:22:42.138Z"
+  },
+  {
+    "sentenceId": "o1",
+    "voice": "openai",
+    "pathId": "audio-llm",
+    "model": "gpt-audio-2025-08-28",
+    "transcript": "それは素敵ですね！日本への旅行は素晴らしい体験になると思います。行きたい場所や気になる観光スポットはありますか？例えば、東京、京都、奈良、北海道など、日本にはさまざまな魅力的な場所がありますよ。何か具体的な計画や目的があれば教えてください。",
+    "at": "2026-06-12T02:22:43.999Z"
+  },
+  {
+    "sentenceId": "o1",
+    "voice": "kyoko",
+    "pathId": "4o-bare",
+    "model": "gpt-4o-transcribe",
+    "transcript": "私は日本に行きたいとても。",
+    "at": "2026-06-12T02:22:44.679Z"
+  },
+  {
+    "sentenceId": "o1",
+    "voice": "kyoko",
+    "pathId": "4o-verbatim-ja",
+    "model": "gpt-4o-transcribe",
+    "transcript": "私は日本に行きたいとても。",
+    "at": "2026-06-12T02:22:45.300Z"
+  },
+  {
+    "sentenceId": "o1",
+    "voice": "kyoko",
+    "pathId": "4o-verbatim-en",
+    "model": "gpt-4o-transcribe",
+    "transcript": "私は日本に行きたいとても。",
+    "at": "2026-06-12T02:22:45.780Z"
+  },
+  {
+    "sentenceId": "o1",
+    "voice": "kyoko",
+    "pathId": "whisper-bare",
+    "model": "whisper-1",
+    "transcript": "私は日本に行きたいとても。",
+    "at": "2026-06-12T02:22:47.906Z"
+  },
+  {
+    "sentenceId": "o1",
+    "voice": "kyoko",
+    "pathId": "audio-llm",
+    "model": "gpt-audio-2025-08-28",
+    "transcript": "それは素晴らしいですね！日本にはたくさんの魅力的な場所や文化があります。旅行の計画を立てることはとても楽しいですし、行きたい場所や体験したいことを考えるのもワクワクしますよね。具体的にどんな場所に行ってみたいですか？",
+    "at": "2026-06-12T02:22:49.028Z"
+  },
+  {
+    "sentenceId": "o2",
+    "voice": "openai",
+    "pathId": "4o-bare",
+    "model": "gpt-4o-transcribe",
+    "transcript": "これは本の私です。",
+    "at": "2026-06-12T02:22:49.488Z"
+  },
+  {
+    "sentenceId": "o2",
+    "voice": "openai",
+    "pathId": "4o-verbatim-ja",
+    "model": "gpt-4o-transcribe",
+    "transcript": "これは本の私です。",
+    "at": "2026-06-12T02:22:49.998Z"
+  },
+  {
+    "sentenceId": "o2",
+    "voice": "openai",
+    "pathId": "4o-verbatim-en",
+    "model": "gpt-4o-transcribe",
+    "transcript": "これは本の私です。",
+    "at": "2026-06-12T02:22:50.530Z"
+  },
+  {
+    "sentenceId": "o2",
+    "voice": "openai",
+    "pathId": "whisper-bare",
+    "model": "whisper-1",
+    "transcript": "これは本の私です",
+    "at": "2026-06-12T02:22:50.910Z"
+  },
+  {
+    "sentenceId": "o2",
+    "voice": "openai",
+    "pathId": "audio-llm",
+    "model": "gpt-audio-2025-08-28",
+    "transcript": "わかりました。この写真や音声があなたご自身であるとおっしゃっているのですね。では、その上で、もし何か特定の情報やご質問にお答えできることがあればお手伝いしますので、どうぞお知らせください。",
+    "at": "2026-06-12T02:22:51.970Z"
+  },
+  {
+    "sentenceId": "o2",
+    "voice": "kyoko",
+    "pathId": "4o-bare",
+    "model": "gpt-4o-transcribe",
+    "transcript": "これは本の私です。",
+    "at": "2026-06-12T02:22:52.355Z"
+  },
+  {
+    "sentenceId": "o2",
+    "voice": "kyoko",
+    "pathId": "4o-verbatim-ja",
+    "model": "gpt-4o-transcribe",
+    "transcript": "これは本の私です。",
+    "at": "2026-06-12T02:22:52.893Z"
+  },
+  {
+    "sentenceId": "o2",
+    "voice": "kyoko",
+    "pathId": "4o-verbatim-en",
+    "model": "gpt-4o-transcribe",
+    "transcript": "これは本の私です。",
+    "at": "2026-06-12T02:22:53.343Z"
+  },
+  {
+    "sentenceId": "o2",
+    "voice": "kyoko",
+    "pathId": "whisper-bare",
+    "model": "whisper-1",
+    "transcript": "これは本の私です。",
+    "at": "2026-06-12T02:22:54.860Z"
+  },
+  {
+    "sentenceId": "o2",
+    "voice": "kyoko",
+    "pathId": "audio-llm",
+    "model": "gpt-audio-2025-08-28",
+    "transcript": "Could you provide a little more context or describe what you're referring to? Are you showing me an image, a quote from a book, or something else? Let me know how I can assist further.",
+    "at": "2026-06-12T02:22:55.857Z"
+  },
+  {
+    "sentenceId": "o3",
+    "voice": "openai",
+    "pathId": "4o-bare",
+    "model": "gpt-4o-transcribe",
+    "transcript": "映画を見ました、昨日。",
+    "at": "2026-06-12T02:22:56.359Z"
+  },
+  {
+    "sentenceId": "o3",
+    "voice": "openai",
+    "pathId": "4o-verbatim-ja",
+    "model": "gpt-4o-transcribe",
+    "transcript": "映画を見ました、昨日。",
+    "at": "2026-06-12T02:22:57.186Z"
+  },
+  {
+    "sentenceId": "o3",
+    "voice": "openai",
+    "pathId": "4o-verbatim-en",
+    "model": "gpt-4o-transcribe",
+    "transcript": "映画を見ました、昨日。",
+    "at": "2026-06-12T02:22:57.584Z"
+  },
+  {
+    "sentenceId": "o3",
+    "voice": "openai",
+    "pathId": "whisper-bare",
+    "model": "whisper-1",
+    "transcript": "映画を見ました。きのう。",
+    "at": "2026-06-12T02:22:58.514Z"
+  },
+  {
+    "sentenceId": "o3",
+    "voice": "openai",
+    "pathId": "audio-llm",
+    "model": "gpt-audio-2025-08-28",
+    "transcript": "承知しました。そのまま文字起こしします。\n\n映画を見ました、昨日。",
+    "at": "2026-06-12T02:22:59.181Z"
+  },
+  {
+    "sentenceId": "o3",
+    "voice": "kyoko",
+    "pathId": "4o-bare",
+    "model": "gpt-4o-transcribe",
+    "transcript": "映画を見ました昨日。",
+    "at": "2026-06-12T02:22:59.752Z"
+  },
+  {
+    "sentenceId": "o3",
+    "voice": "kyoko",
+    "pathId": "4o-verbatim-ja",
+    "model": "gpt-4o-transcribe",
+    "transcript": "映画を見ました昨日。",
+    "at": "2026-06-12T02:23:00.275Z"
+  },
+  {
+    "sentenceId": "o3",
+    "voice": "kyoko",
+    "pathId": "4o-verbatim-en",
+    "model": "gpt-4o-transcribe",
+    "transcript": "映画を見ました昨日。",
+    "at": "2026-06-12T02:23:00.833Z"
+  },
+  {
+    "sentenceId": "o3",
+    "voice": "kyoko",
+    "pathId": "whisper-bare",
+    "model": "whisper-1",
+    "transcript": "映画を見ました昨日",
+    "at": "2026-06-12T02:23:01.244Z"
+  },
+  {
+    "sentenceId": "o3",
+    "voice": "kyoko",
+    "pathId": "audio-llm",
+    "model": "gpt-audio-2025-08-28",
+    "transcript": "映画、いいですね。どんな映画を見たんですか？内容や感想を教えていただけたら嬉しいです。",
+    "at": "2026-06-12T02:23:02.156Z"
+  },
+  {
+    "sentenceId": "w1",
+    "voice": "openai",
+    "pathId": "4o-bare",
+    "model": "gpt-4o-transcribe",
+    "transcript": "薬を食べました。",
+    "at": "2026-06-12T02:23:02.544Z"
+  },
+  {
+    "sentenceId": "w1",
+    "voice": "openai",
+    "pathId": "4o-verbatim-ja",
+    "model": "gpt-4o-transcribe",
+    "transcript": "薬を食べました。",
+    "at": "2026-06-12T02:23:03.020Z"
+  },
+  {
+    "sentenceId": "w1",
+    "voice": "openai",
+    "pathId": "4o-verbatim-en",
+    "model": "gpt-4o-transcribe",
+    "transcript": "薬を食べました。",
+    "at": "2026-06-12T02:23:03.455Z"
+  },
+  {
+    "sentenceId": "w1",
+    "voice": "openai",
+    "pathId": "whisper-bare",
+    "model": "whisper-1",
+    "transcript": "薬を食べました。",
+    "at": "2026-06-12T02:23:03.906Z"
+  },
+  {
+    "sentenceId": "w1",
+    "voice": "openai",
+    "pathId": "audio-llm",
+    "model": "gpt-audio-2025-08-28",
+    "transcript": "承知しました。以下がその文字起こしです。\n\n「くすりを食べました。」",
+    "at": "2026-06-12T02:23:04.681Z"
+  },
+  {
+    "sentenceId": "w1",
+    "voice": "kyoko",
+    "pathId": "4o-bare",
+    "model": "gpt-4o-transcribe",
+    "transcript": "薬を食べました。",
+    "at": "2026-06-12T02:23:05.173Z"
+  },
+  {
+    "sentenceId": "w1",
+    "voice": "kyoko",
+    "pathId": "4o-verbatim-ja",
+    "model": "gpt-4o-transcribe",
+    "transcript": "薬を食べました。",
+    "at": "2026-06-12T02:23:05.658Z"
+  },
+  {
+    "sentenceId": "w1",
+    "voice": "kyoko",
+    "pathId": "4o-verbatim-en",
+    "model": "gpt-4o-transcribe",
+    "transcript": "薬を食べました",
+    "at": "2026-06-12T02:23:06.141Z"
+  },
+  {
+    "sentenceId": "w1",
+    "voice": "kyoko",
+    "pathId": "whisper-bare",
+    "model": "whisper-1",
+    "transcript": "薬を食べました。",
+    "at": "2026-06-12T02:23:06.793Z"
+  },
+  {
+    "sentenceId": "w1",
+    "voice": "kyoko",
+    "pathId": "audio-llm",
+    "model": "gpt-audio-2025-08-28",
+    "transcript": "それはいいですね。どんな薬を召し上がる予定でしょうか？体調が早く良くなるといいですね。",
+    "at": "2026-06-12T02:23:07.720Z"
+  },
+  {
+    "sentenceId": "w2",
+    "voice": "openai",
+    "pathId": "4o-bare",
+    "model": "gpt-4o-transcribe",
+    "transcript": "帽子を着ています。",
+    "at": "2026-06-12T02:23:08.279Z"
+  },
+  {
+    "sentenceId": "w2",
+    "voice": "openai",
+    "pathId": "4o-verbatim-ja",
+    "model": "gpt-4o-transcribe",
+    "transcript": "帽子を着ています。",
+    "at": "2026-06-12T02:23:08.785Z"
+  },
+  {
+    "sentenceId": "w2",
+    "voice": "openai",
+    "pathId": "4o-verbatim-en",
+    "model": "gpt-4o-transcribe",
+    "transcript": "帽子を着ています。",
+    "at": "2026-06-12T02:23:09.300Z"
+  },
+  {
+    "sentenceId": "w2",
+    "voice": "openai",
+    "pathId": "whisper-bare",
+    "model": "whisper-1",
+    "transcript": "帽子を着ています。",
+    "at": "2026-06-12T02:23:10.437Z"
+  },
+  {
+    "sentenceId": "w2",
+    "voice": "openai",
+    "pathId": "audio-llm",
+    "model": "gpt-audio-2025-08-28",
+    "transcript": "了解しました。\n「帽子を着ています」と言っていますね。\nここで一つ確認ですが、「帽子をかぶっています」という表現が一般的ですので、文法的には少し違っている可能性があります。ですが、今回はそのまま文字起こしをするということなので、修正せずにそのまま正確に書き起こします。\n\n「帽子を着ています」",
+    "at": "2026-06-12T02:23:11.836Z"
+  },
+  {
+    "sentenceId": "w2",
+    "voice": "kyoko",
+    "pathId": "4o-bare",
+    "model": "gpt-4o-transcribe",
+    "transcript": "帽子を着ています。",
+    "at": "2026-06-12T02:23:12.358Z"
+  },
+  {
+    "sentenceId": "w2",
+    "voice": "kyoko",
+    "pathId": "4o-verbatim-ja",
+    "model": "gpt-4o-transcribe",
+    "transcript": "帽子を着ています。",
+    "at": "2026-06-12T02:23:12.775Z"
+  },
+  {
+    "sentenceId": "w2",
+    "voice": "kyoko",
+    "pathId": "4o-verbatim-en",
+    "model": "gpt-4o-transcribe",
+    "transcript": "帽子を着ています。",
+    "at": "2026-06-12T02:23:13.340Z"
+  },
+  {
+    "sentenceId": "w2",
+    "voice": "kyoko",
+    "pathId": "whisper-bare",
+    "model": "whisper-1",
+    "transcript": "帽子を着ています。",
+    "at": "2026-06-12T02:23:13.729Z"
+  },
+  {
+    "sentenceId": "w2",
+    "voice": "kyoko",
+    "pathId": "audio-llm",
+    "model": "gpt-audio-2025-08-28",
+    "transcript": "はい、帽子をかぶっていること、つまり帽子を着けている状態がわかりました。もしもっと詳しく、たとえば帽子の形や色、どんな雰囲気かなど、追加の情報をお知りになりたい場合は、ぜひ教えてください。どのような帽子なのか一緒に確認していきましょう。",
+    "at": "2026-06-12T02:23:14.988Z"
+  },
+  {
+    "sentenceId": "w3",
+    "voice": "openai",
+    "pathId": "4o-bare",
+    "model": "gpt-4o-transcribe",
+    "transcript": "昨日約束を作りました。",
+    "at": "2026-06-12T02:23:15.480Z"
+  },
+  {
+    "sentenceId": "w3",
+    "voice": "openai",
+    "pathId": "4o-verbatim-ja",
+    "model": "gpt-4o-transcribe",
+    "transcript": "昨日約束を作りました。",
+    "at": "2026-06-12T02:23:15.937Z"
+  },
+  {
+    "sentenceId": "w3",
+    "voice": "openai",
+    "pathId": "4o-verbatim-en",
+    "model": "gpt-4o-transcribe",
+    "transcript": "昨日約束を作りました。",
+    "at": "2026-06-12T02:23:16.359Z"
+  },
+  {
+    "sentenceId": "w3",
+    "voice": "openai",
+    "pathId": "whisper-bare",
+    "model": "whisper-1",
+    "transcript": "昨日、約束を作りました。",
+    "at": "2026-06-12T02:23:18.274Z"
+  },
+  {
+    "sentenceId": "w3",
+    "voice": "openai",
+    "pathId": "audio-llm",
+    "model": "gpt-audio-2025-08-28",
+    "transcript": "承知しました。「昨日、約束を作りました。」と書き起こしました。文法的には「約束をした」や「約束を取り決めた」のほうが自然かもしれませんが、ここでは言われた通りに正確に書き起こしています。",
+    "at": "2026-06-12T02:23:19.350Z"
+  },
+  {
+    "sentenceId": "w3",
+    "voice": "kyoko",
+    "pathId": "4o-bare",
+    "model": "gpt-4o-transcribe",
+    "transcript": "昨日、約束を作りました。",
+    "at": "2026-06-12T02:23:19.817Z"
+  },
+  {
+    "sentenceId": "w3",
+    "voice": "kyoko",
+    "pathId": "4o-verbatim-ja",
+    "model": "gpt-4o-transcribe",
+    "transcript": "昨日約束を作りました。",
+    "at": "2026-06-12T02:23:20.436Z"
+  },
+  {
+    "sentenceId": "w3",
+    "voice": "kyoko",
+    "pathId": "4o-verbatim-en",
+    "model": "gpt-4o-transcribe",
+    "transcript": "昨日、約束を作りました。",
+    "at": "2026-06-12T02:23:21.270Z"
+  },
+  {
+    "sentenceId": "w3",
+    "voice": "kyoko",
+    "pathId": "whisper-bare",
+    "model": "whisper-1",
+    "transcript": "昨日、約束を作りました。",
+    "at": "2026-06-12T02:23:22.168Z"
+  },
+  {
+    "sentenceId": "w3",
+    "voice": "kyoko",
+    "pathId": "audio-llm",
+    "model": "gpt-audio-2025-08-28",
+    "transcript": "素晴らしいですね！昨日作った約束について、どんな内容か教えていただけますか？それとも、何かお手伝いできることがあればお知らせください。",
+    "at": "2026-06-12T02:23:23.034Z"
+  },
+  {
+    "sentenceId": "r1",
+    "voice": "openai",
+    "pathId": "4o-bare",
+    "model": "gpt-4o-transcribe",
+    "transcript": "先生、明日休むね。",
+    "at": "2026-06-12T02:23:23.574Z"
+  },
+  {
+    "sentenceId": "r1",
+    "voice": "openai",
+    "pathId": "4o-verbatim-ja",
+    "model": "gpt-4o-transcribe",
+    "transcript": "先生、明日休むね。",
+    "at": "2026-06-12T02:23:24.100Z"
+  },
+  {
+    "sentenceId": "r1",
+    "voice": "openai",
+    "pathId": "4o-verbatim-en",
+    "model": "gpt-4o-transcribe",
+    "transcript": "先生、明日休むね。",
+    "at": "2026-06-12T02:23:24.652Z"
+  },
+  {
+    "sentenceId": "r1",
+    "voice": "openai",
+    "pathId": "whisper-bare",
+    "model": "whisper-1",
+    "transcript": "先生、あした休むね。",
+    "at": "2026-06-12T02:23:25.164Z"
+  },
+  {
+    "sentenceId": "r1",
+    "voice": "openai",
+    "pathId": "audio-llm",
+    "model": "gpt-audio-2025-08-28",
+    "transcript": "承知しました。「先生、明日休むね。」と発言されました。ほかに記録したい詳細などがあればお知らせください。",
+    "at": "2026-06-12T02:23:26.308Z"
+  },
+  {
+    "sentenceId": "r1",
+    "voice": "kyoko",
+    "pathId": "4o-bare",
+    "model": "gpt-4o-transcribe",
+    "transcript": "先生、明日休むね。",
+    "at": "2026-06-12T02:23:26.888Z"
+  },
+  {
+    "sentenceId": "r1",
+    "voice": "kyoko",
+    "pathId": "4o-verbatim-ja",
+    "model": "gpt-4o-transcribe",
+    "transcript": "先生、明日休むね。",
+    "at": "2026-06-12T02:23:27.364Z"
+  },
+  {
+    "sentenceId": "r1",
+    "voice": "kyoko",
+    "pathId": "4o-verbatim-en",
+    "model": "gpt-4o-transcribe",
+    "transcript": "先生、明日急務ね",
+    "at": "2026-06-12T02:23:27.813Z"
+  },
+  {
+    "sentenceId": "r1",
+    "voice": "kyoko",
+    "pathId": "whisper-bare",
+    "model": "whisper-1",
+    "transcript": "先生、アスキュームね。",
+    "at": "2026-06-12T02:23:28.468Z"
+  },
+  {
+    "sentenceId": "r1",
+    "voice": "kyoko",
+    "pathId": "audio-llm",
+    "model": "gpt-audio-2025-08-28",
+    "transcript": "承知しました。先生、明日の休みについて話されているのですね。何について詳しく聞きたいか、またはどんな情報をお求めか教えてください。",
+    "at": "2026-06-12T02:23:29.725Z"
+  },
+  {
+    "sentenceId": "r2",
+    "voice": "openai",
+    "pathId": "4o-bare",
+    "model": "gpt-4o-transcribe",
+    "transcript": "お客様、ちょっと待って。",
+    "at": "2026-06-12T02:23:30.310Z"
+  },
+  {
+    "sentenceId": "r2",
+    "voice": "openai",
+    "pathId": "4o-verbatim-ja",
+    "model": "gpt-4o-transcribe",
+    "transcript": "お客様、ちょっと待って。",
+    "at": "2026-06-12T02:23:30.781Z"
+  },
+  {
+    "sentenceId": "r2",
+    "voice": "openai",
+    "pathId": "4o-verbatim-en",
+    "model": "gpt-4o-transcribe",
+    "transcript": "お客様、ちょっと待って。",
+    "at": "2026-06-12T02:23:31.238Z"
+  },
+  {
+    "sentenceId": "r2",
+    "voice": "openai",
+    "pathId": "whisper-bare",
+    "model": "whisper-1",
+    "transcript": "おきゃくさま、ちょっとまって。",
+    "at": "2026-06-12T02:23:32.716Z"
+  },
+  {
+    "sentenceId": "r2",
+    "voice": "openai",
+    "pathId": "audio-llm",
+    "model": "gpt-audio-2025-08-28",
+    "transcript": "承知しました。「お客様、ちょっと待って。」と文字起こしいたします。",
+    "at": "2026-06-12T02:23:33.662Z"
+  },
+  {
+    "sentenceId": "r2",
+    "voice": "kyoko",
+    "pathId": "4o-bare",
+    "model": "gpt-4o-transcribe",
+    "transcript": "お客様、ちょっと待って。",
+    "at": "2026-06-12T02:23:34.365Z"
+  },
+  {
+    "sentenceId": "r2",
+    "voice": "kyoko",
+    "pathId": "4o-verbatim-ja",
+    "model": "gpt-4o-transcribe",
+    "transcript": "お客様、ちょっと待って。",
+    "at": "2026-06-12T02:23:34.836Z"
+  },
+  {
+    "sentenceId": "r2",
+    "voice": "kyoko",
+    "pathId": "4o-verbatim-en",
+    "model": "gpt-4o-transcribe",
+    "transcript": "お客様、ちょっと待って。",
+    "at": "2026-06-12T02:23:35.445Z"
+  },
+  {
+    "sentenceId": "r2",
+    "voice": "kyoko",
+    "pathId": "whisper-bare",
+    "model": "whisper-1",
+    "transcript": "お客様、ちょっと待って",
+    "at": "2026-06-12T02:23:36.131Z"
+  },
+  {
+    "sentenceId": "r2",
+    "voice": "kyoko",
+    "pathId": "audio-llm",
+    "model": "gpt-audio-2025-08-28",
+    "transcript": "承知しました。引き続きお客様のお言葉をお待ちしています。何か他にお手伝いできることがあれば教えてください。",
+    "at": "2026-06-12T02:23:37.191Z"
+  },
+  {
+    "sentenceId": "f1",
+    "voice": "openai",
+    "pathId": "4o-bare",
+    "model": "gpt-4o-transcribe",
+    "transcript": "えーと、駅はあのどこですか?",
+    "at": "2026-06-12T02:23:37.675Z"
+  },
+  {
+    "sentenceId": "f1",
+    "voice": "openai",
+    "pathId": "4o-verbatim-ja",
+    "model": "gpt-4o-transcribe",
+    "transcript": "えーと、駅はあのどこですか?",
+    "at": "2026-06-12T02:23:38.372Z"
+  },
+  {
+    "sentenceId": "f1",
+    "voice": "openai",
+    "pathId": "4o-verbatim-en",
+    "model": "gpt-4o-transcribe",
+    "transcript": "えーと、駅はあのどこですか?",
+    "at": "2026-06-12T02:23:39.054Z"
+  },
+  {
+    "sentenceId": "f1",
+    "voice": "openai",
+    "pathId": "whisper-bare",
+    "model": "whisper-1",
+    "transcript": "ええと、駅はあのどこですか?",
+    "at": "2026-06-12T02:23:40.837Z"
+  },
+  {
+    "sentenceId": "f1",
+    "voice": "openai",
+    "pathId": "audio-llm",
+    "model": "gpt-audio-2025-08-28",
+    "transcript": "えーと、駅は、あの、どこですか？",
+    "at": "2026-06-12T02:23:41.587Z"
+  },
+  {
+    "sentenceId": "f1",
+    "voice": "kyoko",
+    "pathId": "4o-bare",
+    "model": "gpt-4o-transcribe",
+    "transcript": "えーと、駅はあの、どこですか?",
+    "at": "2026-06-12T02:23:42.244Z"
+  },
+  {
+    "sentenceId": "f1",
+    "voice": "kyoko",
+    "pathId": "4o-verbatim-ja",
+    "model": "gpt-4o-transcribe",
+    "transcript": "えーと、駅は、あの、どこですか。",
+    "at": "2026-06-12T02:23:43.043Z"
+  },
+  {
+    "sentenceId": "f1",
+    "voice": "kyoko",
+    "pathId": "4o-verbatim-en",
+    "model": "gpt-4o-transcribe",
+    "transcript": "えーと、駅はあの、どこですか。",
+    "at": "2026-06-12T02:23:43.729Z"
+  },
+  {
+    "sentenceId": "f1",
+    "voice": "kyoko",
+    "pathId": "whisper-bare",
+    "model": "whisper-1",
+    "transcript": "えーと、駅は、あの、どこですか?",
+    "at": "2026-06-12T02:23:45.210Z"
+  },
+  {
+    "sentenceId": "f1",
+    "voice": "kyoko",
+    "pathId": "audio-llm",
+    "model": "gpt-audio-2025-08-28",
+    "transcript": "えーと、駅は、あの、どこですか。",
+    "at": "2026-06-12T02:23:46.120Z"
+  },
+  {
+    "sentenceId": "f2",
+    "voice": "openai",
+    "pathId": "4o-bare",
+    "model": "gpt-4o-transcribe",
+    "transcript": "私は、えっと、学生です。",
+    "at": "2026-06-12T02:23:46.703Z"
+  },
+  {
+    "sentenceId": "f2",
+    "voice": "openai",
+    "pathId": "4o-verbatim-ja",
+    "model": "gpt-4o-transcribe",
+    "transcript": "私は、えっと、学生です。",
+    "at": "2026-06-12T02:23:47.230Z"
+  },
+  {
+    "sentenceId": "f2",
+    "voice": "openai",
+    "pathId": "4o-verbatim-en",
+    "model": "gpt-4o-transcribe",
+    "transcript": "私は、えっと、学生です。",
+    "at": "2026-06-12T02:23:47.976Z"
+  },
+  {
+    "sentenceId": "f2",
+    "voice": "openai",
+    "pathId": "whisper-bare",
+    "model": "whisper-1",
+    "transcript": "わたしは、えっと、がくせいです。",
+    "at": "2026-06-12T02:23:48.631Z"
+  },
+  {
+    "sentenceId": "f2",
+    "voice": "openai",
+    "pathId": "audio-llm",
+    "model": "gpt-audio-2025-08-28",
+    "transcript": "わたしは、えっと、学生です。",
+    "at": "2026-06-12T02:23:49.731Z"
+  },
+  {
+    "sentenceId": "f2",
+    "voice": "kyoko",
+    "pathId": "4o-bare",
+    "model": "gpt-4o-transcribe",
+    "transcript": "私は、学生です。",
+    "at": "2026-06-12T02:23:50.199Z"
+  },
+  {
+    "sentenceId": "f2",
+    "voice": "kyoko",
+    "pathId": "4o-verbatim-ja",
+    "model": "gpt-4o-transcribe",
+    "transcript": "私は、えっと、学生です。",
+    "at": "2026-06-12T02:23:50.708Z"
+  },
+  {
+    "sentenceId": "f2",
+    "voice": "kyoko",
+    "pathId": "4o-verbatim-en",
+    "model": "gpt-4o-transcribe",
+    "transcript": "私は、えっと、学生です。",
+    "at": "2026-06-12T02:23:51.398Z"
+  },
+  {
+    "sentenceId": "f2",
+    "voice": "kyoko",
+    "pathId": "whisper-bare",
+    "model": "whisper-1",
+    "transcript": "私はレッド学生です。",
+    "at": "2026-06-12T02:23:52.410Z"
+  },
+  {
+    "sentenceId": "f2",
+    "voice": "kyoko",
+    "pathId": "audio-llm",
+    "model": "gpt-audio-2025-08-28",
+    "transcript": "わかりました。話された内容をそのまま文字起こしします。\n\n私は、えっと、学生です。",
+    "at": "2026-06-12T02:23:53.164Z"
+  },
+  {
+    "sentenceId": "c1",
+    "voice": "openai",
+    "pathId": "4o-bare",
+    "model": "gpt-4o-transcribe",
+    "transcript": "今日はいい天気ですね。",
+    "at": "2026-06-12T02:23:53.830Z"
+  },
+  {
+    "sentenceId": "c1",
+    "voice": "openai",
+    "pathId": "4o-verbatim-ja",
+    "model": "gpt-4o-transcribe",
+    "transcript": "今日はいい天気ですね。",
+    "at": "2026-06-12T02:23:54.549Z"
+  },
+  {
+    "sentenceId": "c1",
+    "voice": "openai",
+    "pathId": "4o-verbatim-en",
+    "model": "gpt-4o-transcribe",
+    "transcript": "今日はいい天気ですね。",
+    "at": "2026-06-12T02:23:55.375Z"
+  },
+  {
+    "sentenceId": "c1",
+    "voice": "openai",
+    "pathId": "whisper-bare",
+    "model": "whisper-1",
+    "transcript": "今日はいい天気ですね。",
+    "at": "2026-06-12T02:23:55.985Z"
+  },
+  {
+    "sentenceId": "c1",
+    "voice": "openai",
+    "pathId": "audio-llm",
+    "model": "gpt-audio-2025-08-28",
+    "transcript": "はい、本当にいい天気ですね。空も澄んでいて、とても気持ちがいい日です。何か特別な予定はありますか？",
+    "at": "2026-06-12T02:23:56.855Z"
+  },
+  {
+    "sentenceId": "c1",
+    "voice": "kyoko",
+    "pathId": "4o-bare",
+    "model": "gpt-4o-transcribe",
+    "transcript": "今日はいい天気ですね。",
+    "at": "2026-06-12T02:23:57.305Z"
+  },
+  {
+    "sentenceId": "c1",
+    "voice": "kyoko",
+    "pathId": "4o-verbatim-ja",
+    "model": "gpt-4o-transcribe",
+    "transcript": "今日はいい天気ですね。",
+    "at": "2026-06-12T02:23:57.996Z"
+  },
+  {
+    "sentenceId": "c1",
+    "voice": "kyoko",
+    "pathId": "4o-verbatim-en",
+    "model": "gpt-4o-transcribe",
+    "transcript": "今日はいい天気ですね。",
+    "at": "2026-06-12T02:23:58.489Z"
+  },
+  {
+    "sentenceId": "c1",
+    "voice": "kyoko",
+    "pathId": "whisper-bare",
+    "model": "whisper-1",
+    "transcript": "今日は、いい天気ですね。",
+    "at": "2026-06-12T02:23:59.255Z"
+  },
+  {
+    "sentenceId": "c1",
+    "voice": "kyoko",
+    "pathId": "audio-llm",
+    "model": "gpt-audio-2025-08-28",
+    "transcript": "はい、その通りですね。今日は晴れていて気持ちのよい天気です。青空が広がっているような日でしょうか。それとも少し雲がある感じですか？",
+    "at": "2026-06-12T02:24:00.539Z"
+  },
+  {
+    "sentenceId": "c2",
+    "voice": "openai",
+    "pathId": "4o-bare",
+    "model": "gpt-4o-transcribe",
+    "transcript": "週末に友達と映画を見に行きます。",
+    "at": "2026-06-12T02:24:01.087Z"
+  },
+  {
+    "sentenceId": "c2",
+    "voice": "openai",
+    "pathId": "4o-verbatim-ja",
+    "model": "gpt-4o-transcribe",
+    "transcript": "週末に友達と映画を見に行きます。",
+    "at": "2026-06-12T02:24:01.649Z"
+  },
+  {
+    "sentenceId": "c2",
+    "voice": "openai",
+    "pathId": "4o-verbatim-en",
+    "model": "gpt-4o-transcribe",
+    "transcript": "週末に友達と映画を見に行きます。",
+    "at": "2026-06-12T02:24:02.328Z"
+  },
+  {
+    "sentenceId": "c2",
+    "voice": "openai",
+    "pathId": "whisper-bare",
+    "model": "whisper-1",
+    "transcript": "週末に友達と映画を見に行きます。",
+    "at": "2026-06-12T02:24:03.612Z"
+  },
+  {
+    "sentenceId": "c2",
+    "voice": "openai",
+    "pathId": "audio-llm",
+    "model": "gpt-audio-2025-08-28",
+    "transcript": "それは楽しみですね！週末に友達と映画を観に行くのは、いいリフレッシュになりそうです。どんな映画を観に行く予定ですか？",
+    "at": "2026-06-12T02:24:04.614Z"
+  },
+  {
+    "sentenceId": "c2",
+    "voice": "kyoko",
+    "pathId": "4o-bare",
+    "model": "gpt-4o-transcribe",
+    "transcript": "週末に友達と映画を見に行きます。",
+    "at": "2026-06-12T02:24:05.228Z"
+  },
+  {
+    "sentenceId": "c2",
+    "voice": "kyoko",
+    "pathId": "4o-verbatim-ja",
+    "model": "gpt-4o-transcribe",
+    "transcript": "週末に友達と映画を見に行きます。",
+    "at": "2026-06-12T02:24:08.439Z"
+  },
+  {
+    "sentenceId": "c2",
+    "voice": "kyoko",
+    "pathId": "4o-verbatim-en",
+    "model": "gpt-4o-transcribe",
+    "transcript": "週末に友達と映画を見に行きます。",
+    "at": "2026-06-12T02:24:09.343Z"
+  },
+  {
+    "sentenceId": "c2",
+    "voice": "kyoko",
+    "pathId": "whisper-bare",
+    "model": "whisper-1",
+    "transcript": "週末に友達と映画を観に行きます。",
+    "at": "2026-06-12T02:24:10.642Z"
+  },
+  {
+    "sentenceId": "c2",
+    "voice": "kyoko",
+    "pathId": "audio-llm",
+    "model": "gpt-audio-2025-08-28",
+    "transcript": "楽しそうですね！どんな映画を見る予定ですか？ジャンルやタイトルが決まっていたら教えてください。予定を立てるのもわくわくしますよね。",
+    "at": "2026-06-12T02:24:11.637Z"
+  },
+  {
+    "sentenceId": "c3",
+    "voice": "openai",
+    "pathId": "4o-bare",
+    "model": "gpt-4o-transcribe",
+    "transcript": "すみません、駅までの行き方を教えてください。",
+    "at": "2026-06-12T02:24:12.148Z"
+  },
+  {
+    "sentenceId": "c3",
+    "voice": "openai",
+    "pathId": "4o-verbatim-ja",
+    "model": "gpt-4o-transcribe",
+    "transcript": "すみません、駅までの行き方を教えてください。",
+    "at": "2026-06-12T02:24:12.792Z"
+  },
+  {
+    "sentenceId": "c3",
+    "voice": "openai",
+    "pathId": "4o-verbatim-en",
+    "model": "gpt-4o-transcribe",
+    "transcript": "すみません、駅までの行き方を教えてください。",
+    "at": "2026-06-12T02:24:13.343Z"
+  },
+  {
+    "sentenceId": "c3",
+    "voice": "openai",
+    "pathId": "whisper-bare",
+    "model": "whisper-1",
+    "transcript": "すみません 駅までの行き方を教えてください",
+    "at": "2026-06-12T02:24:14.926Z"
+  },
+  {
+    "sentenceId": "c3",
+    "voice": "openai",
+    "pathId": "audio-llm",
+    "model": "gpt-audio-2025-08-28",
+    "transcript": "もちろんです。どの駅を目指していますか？また、現在地はどのあたりでしょうか。教えていただければ、具体的な道順をご案内します。",
+    "at": "2026-06-12T02:24:15.845Z"
+  },
+  {
+    "sentenceId": "c3",
+    "voice": "kyoko",
+    "pathId": "4o-bare",
+    "model": "gpt-4o-transcribe",
+    "transcript": "すみません、駅までの行き方を教えてください。",
+    "at": "2026-06-12T02:24:16.664Z"
+  },
+  {
+    "sentenceId": "c3",
+    "voice": "kyoko",
+    "pathId": "4o-verbatim-ja",
+    "model": "gpt-4o-transcribe",
+    "transcript": "すみません、駅までの行き方を教えてください。",
+    "at": "2026-06-12T02:24:17.332Z"
+  },
+  {
+    "sentenceId": "c3",
+    "voice": "kyoko",
+    "pathId": "4o-verbatim-en",
+    "model": "gpt-4o-transcribe",
+    "transcript": "すみません、駅までの行き方を教えてください。",
+    "at": "2026-06-12T02:24:18.114Z"
+  },
+  {
+    "sentenceId": "c3",
+    "voice": "kyoko",
+    "pathId": "whisper-bare",
+    "model": "whisper-1",
+    "transcript": "すみません、駅までの行き方を教えてください。",
+    "at": "2026-06-12T02:24:18.648Z"
+  },
+  {
+    "sentenceId": "c3",
+    "voice": "kyoko",
+    "pathId": "audio-llm",
+    "model": "gpt-audio-2025-08-28",
+    "transcript": "もちろんです。最寄りの駅はどちらの駅でしょうか？また、出発地点はどちらになりますか？その情報があれば具体的な道順をご案内できます。",
+    "at": "2026-06-12T02:24:19.569Z"
+  },
+  {
+    "sentenceId": "c4",
+    "voice": "openai",
+    "pathId": "4o-bare",
+    "model": "gpt-4o-transcribe",
+    "transcript": "日本料理の中で、寿司が一番好きです。",
+    "at": "2026-06-12T02:24:20.184Z"
+  },
+  {
+    "sentenceId": "c4",
+    "voice": "openai",
+    "pathId": "4o-verbatim-ja",
+    "model": "gpt-4o-transcribe",
+    "transcript": "日本料理の中で、寿司が一番好きです。",
+    "at": "2026-06-12T02:24:20.709Z"
+  },
+  {
+    "sentenceId": "c4",
+    "voice": "openai",
+    "pathId": "4o-verbatim-en",
+    "model": "gpt-4o-transcribe",
+    "transcript": "日本料理の中で寿司が一番好きです。",
+    "at": "2026-06-12T02:24:21.339Z"
+  },
+  {
+    "sentenceId": "c4",
+    "voice": "openai",
+    "pathId": "whisper-bare",
+    "model": "whisper-1",
+    "transcript": "日本料理の中で、寿司が一番好きです。",
+    "at": "2026-06-12T02:24:22.610Z"
+  },
+  {
+    "sentenceId": "c4",
+    "voice": "openai",
+    "pathId": "audio-llm",
+    "model": "gpt-audio-2025-08-28",
+    "transcript": "はい、承知しました。次に話された内容があれば、続けて文字起こししますので教えてください。",
+    "at": "2026-06-12T02:24:23.518Z"
+  },
+  {
+    "sentenceId": "c4",
+    "voice": "kyoko",
+    "pathId": "4o-bare",
+    "model": "gpt-4o-transcribe",
+    "transcript": "日本料理の中で、シが一番好きです。",
+    "at": "2026-06-12T02:24:24.114Z"
+  },
+  {
+    "sentenceId": "c4",
+    "voice": "kyoko",
+    "pathId": "4o-verbatim-ja",
+    "model": "gpt-4o-transcribe",
+    "transcript": "日本料理の中で、死が一番好きです。",
+    "at": "2026-06-12T02:24:24.744Z"
+  },
+  {
+    "sentenceId": "c4",
+    "voice": "kyoko",
+    "pathId": "4o-verbatim-en",
+    "model": "gpt-4o-transcribe",
+    "transcript": "日本料理の中で、死が一番好きです。",
+    "at": "2026-06-12T02:24:25.495Z"
+  },
+  {
+    "sentenceId": "c4",
+    "voice": "kyoko",
+    "pathId": "whisper-bare",
+    "model": "whisper-1",
+    "transcript": "日本料理の中で寿司が一番好きです。",
+    "at": "2026-06-12T02:24:26.295Z"
+  },
+  {
+    "sentenceId": "c4",
+    "voice": "kyoko",
+    "pathId": "audio-llm",
+    "model": "gpt-audio-2025-08-28",
+    "transcript": "日本料理の中で、私自身は好みを持っていませんが、一般的に人気のある日本料理をいくつか挙げることはできます。例えば、寿司、天ぷら、うどん、そば、焼き鳥、すき焼き、しゃぶしゃぶなどです。人によってはこれらの中で一番好きなものを選ぶことが多いでしょう。あなたは、どの日本料理が一番お好きですか？",
+    "at": "2026-06-12T02:24:27.710Z"
+  }
+]
