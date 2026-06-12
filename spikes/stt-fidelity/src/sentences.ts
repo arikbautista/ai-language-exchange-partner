@@ -17,6 +17,7 @@ export interface Sentence {
   note: string;
 }
 
+// Arrow in notes reads correct→error: "を→が" means the learner used が where を belongs.
 export const SENTENCES: Sentence[] = [
   // --- particle choice ---
   { id: "p1", errorClass: "particle", flawed: "私は毎朝コーヒーが飲みます。", corrected: "私は毎朝コーヒーを飲みます。", note: "を→が on direct object" },
@@ -26,10 +27,11 @@ export const SENTENCES: Sentence[] = [
   // --- verb conjugation ---
   { id: "v1", errorClass: "conjugation", flawed: "昨日、映画を見ます。", corrected: "昨日、映画を見ました。", note: "missing past tense with 昨日" },
   { id: "v2", errorClass: "conjugation", flawed: "寒いだから、コートを着ました。", corrected: "寒いから、コートを着ました。", note: "い-adjective + だ" },
-  { id: "v3", errorClass: "conjugation", flawed: "漢字を読むできません。", corrected: "漢字を読むことができません。", note: "missing こと nominalizer" },
+  { id: "v3", errorClass: "conjugation", flawed: "漢字を読むできません。", corrected: "漢字を読むことができません。", note: "missing こと nominalizer and が before できる" },
   // --- word order ---
-  { id: "o1", errorClass: "word-order", flawed: "私は日本に行きたいとても。", corrected: "私はとても日本に行きたいです。", note: "adverb after the verb" },
+  { id: "o1", errorClass: "word-order", flawed: "私は日本に行きたいとても。", corrected: "私はとても日本に行きたい。", note: "adverb after the verb" },
   { id: "o2", errorClass: "word-order", flawed: "これは本の私です。", corrected: "これは私の本です。", note: "reversed の possession" },
+  { id: "o3", errorClass: "word-order", flawed: "映画を見ました昨日。", corrected: "昨日、映画を見ました。", note: "temporal adverb after predicate" },
   // --- word choice ---
   { id: "w1", errorClass: "word-choice", flawed: "薬を食べました。", corrected: "薬を飲みました。", note: "食べる→飲む for medicine" },
   { id: "w2", errorClass: "word-choice", flawed: "帽子を着ています。", corrected: "帽子をかぶっています。", note: "着る→かぶる for hats" },
