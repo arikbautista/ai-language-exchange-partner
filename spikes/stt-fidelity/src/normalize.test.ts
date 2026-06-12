@@ -54,3 +54,18 @@ test("classify: control sentence transcribed wrong is review", () => {
   });
   assert.equal(v, "review");
 });
+
+test("stripNoise folds half-width katakana prolonged sound mark ｰ to ー", () => {
+  assert.equal(stripNoise("ｰ"), "ー");
+});
+
+test("stripNoise folds half-width katakana string ｴｰﾄ, preserving long-vowel mark", () => {
+  assert.equal(stripNoise("ｴｰﾄ"), "エート");
+});
+
+test("classify: empty transcript is review, not a false verdict", () => {
+  assert.equal(
+    classify({ transcript: "", flawed: "くすりをたべました", corrected: "くすりをのみました" }),
+    "review"
+  );
+});
