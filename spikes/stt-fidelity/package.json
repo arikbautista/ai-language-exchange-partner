@@ -1,0 +1,22 @@
+{
+  "name": "stt-fidelity-spike",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "test": "node --import tsx --test src/normalize.test.ts",
+    "synthesize": "tsx src/synthesize.ts",
+    "transcribe": "tsx src/transcribe.ts",
+    "score": "tsx src/score.ts"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "kuroshiro": "^1.2.0",
+    "kuroshiro-analyzer-kuromoji": "^1.1.0",
+    "openai": "^4.70.0"
+  },
+  "devDependencies": {
+    "tsx": "^4.19.0",
+    "typescript": "^5.6.0"
+  }
+}
