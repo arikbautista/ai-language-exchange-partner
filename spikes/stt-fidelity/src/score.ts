@@ -37,6 +37,7 @@ async function main() {
     const s = byId.get(e.sentenceId);
     if (!s) throw new Error(`unknown sentence id ${e.sentenceId}`);
     const [t, f, c] = await Promise.all([toHira(e.transcript), toHira(s.flawed), toHira(s.corrected)]);
+    // classify() gets pre-hiragana'd, pre-stripped strings; its internal stripNoise is an idempotent no-op
     scored.push({ ...e, transcriptHira: t, verdict: classify({ transcript: t, flawed: f, corrected: c }) });
   }
 
@@ -58,7 +59,7 @@ async function main() {
   lines.push("", "## Per-sentence detail", "");
   for (const x of scored) {
     const s = byId.get(x.sentenceId)!;
-    lines.push(`- **${x.sentenceId}/${x.voice}/${x.pathId}** [${x.verdict}] said: ${s.flawed} → got: ${x.transcript}`);
+    lines.push(`- **${x.sentenceId}/${x.voice}/${x.pathId}** [${x.verdict}] said: ${s.flawed} → got: ${x.transcript.replace(/\n+/g, " ⏎ ")}`);
   }
   fs.writeFileSync(RESULTS_FILE, lines.join("\n") + "\n");
 
@@ -70,7 +71,7 @@ async function main() {
     rl.push(`## ${x.sentenceId}/${x.voice}/${x.pathId}`);
     rl.push(`- said (flawed): ${s.flawed}`);
     rl.push(`- corrected:     ${s.corrected}`);
-    rl.push(`- transcript:    ${x.transcript}`);
+    rl.push(`- transcript:    ${x.transcript.replace(/\n+/g, " ⏎ ")}`);
     rl.push(`- tag: `);
     rl.push("");
   }

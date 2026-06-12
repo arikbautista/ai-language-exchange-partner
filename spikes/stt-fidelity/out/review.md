@@ -5,17 +5,13 @@ Tag each: `near-preserved`, `near-normalized`, or `mistranscribed`.
 ## p1/openai/audio-llm
 - said (flawed): 私は毎朝コーヒーが飲みます。
 - corrected:     私は毎朝コーヒーを飲みます。
-- transcript:    承知しました。以下の通り、そのまま文字起こしいたします。
-
-私は、毎朝、コーヒーが飲みます。
+- transcript:    承知しました。以下の通り、そのまま文字起こしいたします。 ⏎ 私は、毎朝、コーヒーが飲みます。
 - tag: 
 
 ## p2/openai/audio-llm
 - said (flawed): 明日、友達は会います。
 - corrected:     明日、友達に会います。
-- transcript:    承知しました。以下はそのまま書き起こしです。
-
-明日、友達は会います。
+- transcript:    承知しました。以下はそのまま書き起こしです。 ⏎ 明日、友達は会います。
 - tag: 
 
 ## p2/kyoko/4o-bare
@@ -39,9 +35,7 @@ Tag each: `near-preserved`, `near-normalized`, or `mistranscribed`.
 ## p3/openai/audio-llm
 - said (flawed): 電車で学校を行きます。
 - corrected:     電車で学校に行きます。
-- transcript:    了解しました。「電車で学校を行きます」という発言を文字起こしします。以下がそのままの文字起こしです。
-
-電車で学校を行きます。
+- transcript:    了解しました。「電車で学校を行きます」という発言を文字起こしします。以下がそのままの文字起こしです。 ⏎ 電車で学校を行きます。
 - tag: 
 
 ## p3/kyoko/4o-bare
@@ -95,9 +89,7 @@ Tag each: `near-preserved`, `near-normalized`, or `mistranscribed`.
 ## v2/kyoko/audio-llm
 - said (flawed): 寒いだから、コートを着ました。
 - corrected:     寒いから、コートを着ました。
-- transcript:    了解しました。以下が書き起こしです。
-
-寒いだから、コートを着ました。
+- transcript:    了解しました。以下が書き起こしです。 ⏎ 寒いだから、コートを着ました。
 - tag: 
 
 ## v3/openai/audio-llm
@@ -145,9 +137,7 @@ Tag each: `near-preserved`, `near-normalized`, or `mistranscribed`.
 ## o3/openai/audio-llm
 - said (flawed): 映画を見ました昨日。
 - corrected:     昨日、映画を見ました。
-- transcript:    承知しました。そのまま文字起こしします。
-
-映画を見ました、昨日。
+- transcript:    承知しました。そのまま文字起こしします。 ⏎ 映画を見ました、昨日。
 - tag: 
 
 ## o3/kyoko/audio-llm
@@ -159,9 +149,7 @@ Tag each: `near-preserved`, `near-normalized`, or `mistranscribed`.
 ## w1/openai/audio-llm
 - said (flawed): 薬を食べました。
 - corrected:     薬を飲みました。
-- transcript:    承知しました。以下がその文字起こしです。
-
-「くすりを食べました。」
+- transcript:    承知しました。以下がその文字起こしです。 ⏎ 「くすりを食べました。」
 - tag: 
 
 ## w1/kyoko/audio-llm
@@ -173,11 +161,7 @@ Tag each: `near-preserved`, `near-normalized`, or `mistranscribed`.
 ## w2/openai/audio-llm
 - said (flawed): 帽子を着ています。
 - corrected:     帽子をかぶっています。
-- transcript:    了解しました。
-「帽子を着ています」と言っていますね。
-ここで一つ確認ですが、「帽子をかぶっています」という表現が一般的ですので、文法的には少し違っている可能性があります。ですが、今回はそのまま文字起こしをするということなので、修正せずにそのまま正確に書き起こします。
-
-「帽子を着ています」
+- transcript:    了解しました。 ⏎ 「帽子を着ています」と言っていますね。 ⏎ ここで一つ確認ですが、「帽子をかぶっています」という表現が一般的ですので、文法的には少し違っている可能性があります。ですが、今回はそのまま文字起こしをするということなので、修正せずにそのまま正確に書き起こします。 ⏎ 「帽子を着ています」
 - tag: 
 
 ## w2/kyoko/audio-llm
@@ -249,9 +233,7 @@ Tag each: `near-preserved`, `near-normalized`, or `mistranscribed`.
 ## f2/kyoko/audio-llm
 - said (flawed): 私は、えっと、学生です。
 - corrected:     私は学生です。
-- transcript:    わかりました。話された内容をそのまま文字起こしします。
-
-私は、えっと、学生です。
+- transcript:    わかりました。話された内容をそのまま文字起こしします。 ⏎ 私は、えっと、学生です。
 - tag: 
 
 ## c1/openai/audio-llm

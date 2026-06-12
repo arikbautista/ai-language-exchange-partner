@@ -18,9 +18,7 @@ Cell = preserved / normalized / review (controls: ok / review).
 - **p1/openai/4o-verbatim-ja** [preserved] said: 私は毎朝コーヒーが飲みます。 → got: 私は毎朝コーヒーが飲みます。
 - **p1/openai/4o-verbatim-en** [preserved] said: 私は毎朝コーヒーが飲みます。 → got: 私は毎朝コーヒーが飲みます。
 - **p1/openai/whisper-bare** [preserved] said: 私は毎朝コーヒーが飲みます。 → got: 私は毎朝コーヒーが飲みます。
-- **p1/openai/audio-llm** [review] said: 私は毎朝コーヒーが飲みます。 → got: 承知しました。以下の通り、そのまま文字起こしいたします。
-
-私は、毎朝、コーヒーが飲みます。
+- **p1/openai/audio-llm** [review] said: 私は毎朝コーヒーが飲みます。 → got: 承知しました。以下の通り、そのまま文字起こしいたします。 ⏎ 私は、毎朝、コーヒーが飲みます。
 - **p1/kyoko/4o-bare** [preserved] said: 私は毎朝コーヒーが飲みます。 → got: 私は毎朝コーヒーが飲みます。
 - **p1/kyoko/4o-verbatim-ja** [preserved] said: 私は毎朝コーヒーが飲みます。 → got: 私は毎朝コーヒーが飲みます。
 - **p1/kyoko/4o-verbatim-en** [preserved] said: 私は毎朝コーヒーが飲みます。 → got: わたしは毎朝コーヒーが飲みます。
@@ -30,9 +28,7 @@ Cell = preserved / normalized / review (controls: ok / review).
 - **p2/openai/4o-verbatim-ja** [preserved] said: 明日、友達は会います。 → got: 明日、友達は会います。
 - **p2/openai/4o-verbatim-en** [preserved] said: 明日、友達は会います。 → got: 明日、友達は会います。
 - **p2/openai/whisper-bare** [preserved] said: 明日、友達は会います。 → got: 明日、友達は会います。
-- **p2/openai/audio-llm** [review] said: 明日、友達は会います。 → got: 承知しました。以下はそのまま書き起こしです。
-
-明日、友達は会います。
+- **p2/openai/audio-llm** [review] said: 明日、友達は会います。 → got: 承知しました。以下はそのまま書き起こしです。 ⏎ 明日、友達は会います。
 - **p2/kyoko/4o-bare** [review] said: 明日、友達は会います。 → got: まず、友達は会います。
 - **p2/kyoko/4o-verbatim-ja** [preserved] said: 明日、友達は会います。 → got: 明日、友達は会います。
 - **p2/kyoko/4o-verbatim-en** [review] said: 明日、友達は会います。 → got: まず、友達は会います。
@@ -42,9 +38,7 @@ Cell = preserved / normalized / review (controls: ok / review).
 - **p3/openai/4o-verbatim-ja** [preserved] said: 電車で学校を行きます。 → got: 電車で学校を行きます。
 - **p3/openai/4o-verbatim-en** [preserved] said: 電車で学校を行きます。 → got: 電車で学校を行きます。
 - **p3/openai/whisper-bare** [preserved] said: 電車で学校を行きます。 → got: 電車で学校を行きます。
-- **p3/openai/audio-llm** [review] said: 電車で学校を行きます。 → got: 了解しました。「電車で学校を行きます」という発言を文字起こしします。以下がそのままの文字起こしです。
-
-電車で学校を行きます。
+- **p3/openai/audio-llm** [review] said: 電車で学校を行きます。 → got: 了解しました。「電車で学校を行きます」という発言を文字起こしします。以下がそのままの文字起こしです。 ⏎ 電車で学校を行きます。
 - **p3/kyoko/4o-bare** [review] said: 電車で学校を行きます。 → got: 電車で学校へ行きます。
 - **p3/kyoko/4o-verbatim-ja** [preserved] said: 電車で学校を行きます。 → got: 電車で学校を行きます。
 - **p3/kyoko/4o-verbatim-en** [preserved] said: 電車で学校を行きます。 → got: 電車で学校を行きます。
@@ -79,9 +73,7 @@ Cell = preserved / normalized / review (controls: ok / review).
 - **v2/kyoko/4o-verbatim-ja** [preserved] said: 寒いだから、コートを着ました。 → got: 寒いだから、コートを着ました。
 - **v2/kyoko/4o-verbatim-en** [preserved] said: 寒いだから、コートを着ました。 → got: 寒いだから、コートを着ました。
 - **v2/kyoko/whisper-bare** [preserved] said: 寒いだから、コートを着ました。 → got: 寒いだからコートを着ました。
-- **v2/kyoko/audio-llm** [review] said: 寒いだから、コートを着ました。 → got: 了解しました。以下が書き起こしです。
-
-寒いだから、コートを着ました。
+- **v2/kyoko/audio-llm** [review] said: 寒いだから、コートを着ました。 → got: 了解しました。以下が書き起こしです。 ⏎ 寒いだから、コートを着ました。
 - **v3/openai/4o-bare** [preserved] said: 漢字を読むできません。 → got: 漢字を読むできません。
 - **v3/openai/4o-verbatim-ja** [preserved] said: 漢字を読むできません。 → got: 漢字を読むできません。
 - **v3/openai/4o-verbatim-en** [preserved] said: 漢字を読むできません。 → got: 漢字を読むできません。
@@ -116,9 +108,7 @@ Cell = preserved / normalized / review (controls: ok / review).
 - **o3/openai/4o-verbatim-ja** [preserved] said: 映画を見ました昨日。 → got: 映画を見ました、昨日。
 - **o3/openai/4o-verbatim-en** [preserved] said: 映画を見ました昨日。 → got: 映画を見ました、昨日。
 - **o3/openai/whisper-bare** [preserved] said: 映画を見ました昨日。 → got: 映画を見ました。きのう。
-- **o3/openai/audio-llm** [review] said: 映画を見ました昨日。 → got: 承知しました。そのまま文字起こしします。
-
-映画を見ました、昨日。
+- **o3/openai/audio-llm** [review] said: 映画を見ました昨日。 → got: 承知しました。そのまま文字起こしします。 ⏎ 映画を見ました、昨日。
 - **o3/kyoko/4o-bare** [preserved] said: 映画を見ました昨日。 → got: 映画を見ました昨日。
 - **o3/kyoko/4o-verbatim-ja** [preserved] said: 映画を見ました昨日。 → got: 映画を見ました昨日。
 - **o3/kyoko/4o-verbatim-en** [preserved] said: 映画を見ました昨日。 → got: 映画を見ました昨日。
@@ -128,9 +118,7 @@ Cell = preserved / normalized / review (controls: ok / review).
 - **w1/openai/4o-verbatim-ja** [preserved] said: 薬を食べました。 → got: 薬を食べました。
 - **w1/openai/4o-verbatim-en** [preserved] said: 薬を食べました。 → got: 薬を食べました。
 - **w1/openai/whisper-bare** [preserved] said: 薬を食べました。 → got: 薬を食べました。
-- **w1/openai/audio-llm** [review] said: 薬を食べました。 → got: 承知しました。以下がその文字起こしです。
-
-「くすりを食べました。」
+- **w1/openai/audio-llm** [review] said: 薬を食べました。 → got: 承知しました。以下がその文字起こしです。 ⏎ 「くすりを食べました。」
 - **w1/kyoko/4o-bare** [preserved] said: 薬を食べました。 → got: 薬を食べました。
 - **w1/kyoko/4o-verbatim-ja** [preserved] said: 薬を食べました。 → got: 薬を食べました。
 - **w1/kyoko/4o-verbatim-en** [preserved] said: 薬を食べました。 → got: 薬を食べました
@@ -140,11 +128,7 @@ Cell = preserved / normalized / review (controls: ok / review).
 - **w2/openai/4o-verbatim-ja** [preserved] said: 帽子を着ています。 → got: 帽子を着ています。
 - **w2/openai/4o-verbatim-en** [preserved] said: 帽子を着ています。 → got: 帽子を着ています。
 - **w2/openai/whisper-bare** [preserved] said: 帽子を着ています。 → got: 帽子を着ています。
-- **w2/openai/audio-llm** [review] said: 帽子を着ています。 → got: 了解しました。
-「帽子を着ています」と言っていますね。
-ここで一つ確認ですが、「帽子をかぶっています」という表現が一般的ですので、文法的には少し違っている可能性があります。ですが、今回はそのまま文字起こしをするということなので、修正せずにそのまま正確に書き起こします。
-
-「帽子を着ています」
+- **w2/openai/audio-llm** [review] said: 帽子を着ています。 → got: 了解しました。 ⏎ 「帽子を着ています」と言っていますね。 ⏎ ここで一つ確認ですが、「帽子をかぶっています」という表現が一般的ですので、文法的には少し違っている可能性があります。ですが、今回はそのまま文字起こしをするということなので、修正せずにそのまま正確に書き起こします。 ⏎ 「帽子を着ています」
 - **w2/kyoko/4o-bare** [preserved] said: 帽子を着ています。 → got: 帽子を着ています。
 - **w2/kyoko/4o-verbatim-ja** [preserved] said: 帽子を着ています。 → got: 帽子を着ています。
 - **w2/kyoko/4o-verbatim-en** [preserved] said: 帽子を着ています。 → got: 帽子を着ています。
@@ -199,9 +183,7 @@ Cell = preserved / normalized / review (controls: ok / review).
 - **f2/kyoko/4o-verbatim-ja** [preserved] said: 私は、えっと、学生です。 → got: 私は、えっと、学生です。
 - **f2/kyoko/4o-verbatim-en** [preserved] said: 私は、えっと、学生です。 → got: 私は、えっと、学生です。
 - **f2/kyoko/whisper-bare** [review] said: 私は、えっと、学生です。 → got: 私はレッド学生です。
-- **f2/kyoko/audio-llm** [review] said: 私は、えっと、学生です。 → got: わかりました。話された内容をそのまま文字起こしします。
-
-私は、えっと、学生です。
+- **f2/kyoko/audio-llm** [review] said: 私は、えっと、学生です。 → got: わかりました。話された内容をそのまま文字起こしします。 ⏎ 私は、えっと、学生です。
 - **c1/openai/4o-bare** [control_ok] said: 今日はいい天気ですね。 → got: 今日はいい天気ですね。
 - **c1/openai/4o-verbatim-ja** [control_ok] said: 今日はいい天気ですね。 → got: 今日はいい天気ですね。
 - **c1/openai/4o-verbatim-en** [control_ok] said: 今日はいい天気ですね。 → got: 今日はいい天気ですね。
