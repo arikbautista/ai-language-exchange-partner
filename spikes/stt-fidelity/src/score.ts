@@ -75,7 +75,17 @@ async function main() {
     rl.push(`- tag: `);
     rl.push("");
   }
-  fs.writeFileSync(REVIEW_FILE, rl.join("\n") + "\n");
+  // Manual tags are evidence (README's adjusted numbers derive from them) — never clobber them.
+  const hasManualTags =
+    fs.existsSync(REVIEW_FILE) && /^- tag: \S/m.test(fs.readFileSync(REVIEW_FILE, "utf8"));
+  if (hasManualTags) {
+    fs.writeFileSync(REVIEW_FILE + ".new", rl.join("\n") + "\n");
+    console.warn(
+      `[WARN] ${REVIEW_FILE} contains manual tags; wrote fresh template to review.md.new instead`,
+    );
+  } else {
+    fs.writeFileSync(REVIEW_FILE, rl.join("\n") + "\n");
+  }
 
   console.log(`scored ${scored.length} transcripts → ${RESULTS_FILE}`);
   console.log(`${review.length} ambiguous → ${REVIEW_FILE}`);

@@ -2,3 +2,4 @@
 .env
 node_modules/
 spikes/stt-fidelity/audio/
+spikes/stt-fidelity/out/review.md.new
