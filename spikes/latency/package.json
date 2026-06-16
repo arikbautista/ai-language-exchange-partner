@@ -1,0 +1,19 @@
+{
+  "name": "latency-spike",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "test": "node --import tsx --test src/chunker.test.ts src/stats.test.ts",
+    "run": "tsx src/run.ts",
+    "report": "tsx src/report.ts"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "openai": "^4.70.0"
+  },
+  "devDependencies": {
+    "tsx": "^4.19.0",
+    "typescript": "^5.6.0"
+  }
+}
