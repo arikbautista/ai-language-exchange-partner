@@ -13,6 +13,7 @@ test("errorRegion handles insertion (flawed shorter)", () => {
   // 読むできません vs 読むことができません → flawed is missing こと…が; region is where they diverge
   const r = errorRegion("漢字を読むできません", "漢字を読むことができません");
   assert.equal(r.start, 5); // diverge right after 読む
+  assert.equal(r.end, r.start); // pure insertion ⇒ zero-width region in `flawed`
 });
 
 test("errorRegion of identical strings is empty", () => {
@@ -38,6 +39,12 @@ test("overlapVerdict no when original is a real substring elsewhere", () => {
 
 test("overlapVerdict ambiguous when original is not a substring of flawed", () => {
   const v = overlapVerdict("コーヒーを", "コーヒーが飲みます", "コーヒーを飲みます");
+  assert.equal(v, "ambiguous");
+});
+
+test("overlapVerdict ambiguous on a pure-insertion error (zero-width region)", () => {
+  // flawed is shorter (missing ことが) → zero-width region → can't decide → ambiguous
+  const v = overlapVerdict("読む", "漢字を読むできません", "漢字を読むことができません");
   assert.equal(v, "ambiguous");
 });
 

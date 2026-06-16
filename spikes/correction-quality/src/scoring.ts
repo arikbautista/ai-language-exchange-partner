@@ -26,11 +26,15 @@ export type Overlap = "yes" | "no" | "ambiguous";
 // - substring not touching the region → "no"
 export function overlapVerdict(original: string, flawed: string, corrected: string): Overlap {
   if (!original) return "ambiguous";
+  // NB: first occurrence only — if `original` repeats and the earlier copy isn't the
+  // error, this can yield a wrong "no". Rare in the corpus; manual review backstops it.
   const idx = flawed.indexOf(original);
   if (idx === -1) return "ambiguous";
   const region = errorRegion(flawed, corrected);
-  // zero-width region (identical strings) can't be overlapped
-  if (region.end <= region.start) return "no";
+  // Zero-width region = pure insertion (or identical strings): we can't locate the
+  // error span by prefix/suffix diff, so we can't confidently say yes/no. Route to
+  // manual review rather than falsely reporting a confident "no".
+  if (region.end <= region.start) return "ambiguous";
   const spanStart = idx;
   const spanEnd = idx + original.length;
   const overlaps = spanStart < region.end && spanEnd > region.start;
