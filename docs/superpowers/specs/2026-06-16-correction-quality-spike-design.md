@@ -47,8 +47,9 @@ does feeding it conversational context change that?
   labeling scheme this eval scores against and the seed for M3's correction
   prompt and M4's mistake-pattern memory.
 - **API key:** the same OpenAI key from spikes 1–2. Full run is one correction
-  call per `sentence × framing` (~50) plus one judge call per *proposed*
-  correction (fewer — controls should yield none), comfortably under $1.
+  call per `sentence × framing` (~60, with the expanded control set) plus one
+  judge call per *proposed* correction (fewer — controls should yield none),
+  comfortably under $1.
 
 ## Structure
 
@@ -78,7 +79,10 @@ crash-safe append pattern of the existing spikes:
 - judgments keyed by `correction-id`
 
 Model ids and thresholds live in `src/config.ts` as config values, per the
-project's never-hardcode-models / cost-guardrail convention.
+project's never-hardcode-models / cost-guardrail convention. Both the correction
+pass and the judge run at **`temperature: 0`** so reruns are stable and the cache
+is honest — the STT spike flagged single-run variance as a limitation, and
+pinning temperature removes that source of drift for the quantitative metrics.
 
 ## v1 mistake taxonomy (`src/taxonomy.ts`)
 
@@ -112,9 +116,18 @@ finding and a documented v2 follow-up — not chased now.
 ## Sentence set (`src/sentences.ts`)
 
 Imports the STT fidelity corpus (17 flawed + 4 control) verbatim for cross-spike
-comparability, and adds a small number of **"correct casual" controls** —
-grammatical sentences in plain/casual form — so the framed run can show whether
-the model wrongly flags casual register when a casual partner frame licenses it.
+comparability, and **expands the control set to ~12–15** because the
+false-positive (over-correction) metric — the bar this spike cares about most —
+otherwise rests on too few controls to be meaningful (one stray flag on 4
+controls swings the rate ~25 points). The expanded controls deliberately span the
+trap cases a nervous model might want to "fix":
+
+- clean polite sentences,
+- clean casual/plain-form sentences (correct under a casual frame),
+- correct-but-filler-laden sentences (えーと、あの present, no error),
+- a couple of *marginal-but-acceptable* sentences (natural, slightly informal, or
+  stylistically loose but not wrong).
+
 Each entry keeps the existing shape (`id`, `errorClass`, `flawed`, `corrected`,
 note); controls use `errorClass: none` with `flawed === corrected`.
 
@@ -159,6 +172,16 @@ Deterministic metrics computed directly; judge verdicts merged in. Output
 judge-agreement section) and `out/review.md` (anything ambiguous, for quick hand
 inspection).
 
+**Catch / extra-flag determination is deterministic only when it's clean.** The
+model returns each error's `original` as free text, so matching it to the known
+error location by string compare will misfire — partial overlap, the model
+quoting a wider clause, or kana/kanji variance. The scorer therefore counts a
+catch (or an extra flag) deterministically only when the flagged span cleanly
+overlaps the known error token(s); anything ambiguous is emitted to
+`out/review.md` for a quick hand-tag, the same near-match fallback the STT
+fidelity spike used. This keeps "catch rate" from reporting false misses on
+correct-but-differently-quoted flags.
+
 | Metric | How | Source |
 |---|---|---|
 | **Catch rate (recall)** | did the model flag the intended error span on a flawed sentence? | deterministic |
@@ -193,6 +216,19 @@ Because a model is grading a model, the spike hand-validates a sample of judge
 verdicts (~15, spread across pass/borderline/fail) and reports judge–human
 agreement in the README. If the judge can't be trusted, every soft metric is
 suspect and the findings say so explicitly.
+
+## Limitations
+
+- **The verdict is conditional on one prompt.** This spike tests `gpt-4o-mini`
+  *through a single, pre-registered correction prompt*. A weak result may be the
+  prompt's fault, not the model's — which is exactly why option (c) "hardened
+  prompt" exists. A no-ship (option d) means "this model on a reasonable first
+  prompt," not "this model, ever." The prompt is committed in `src/correct.ts` so
+  the result is interpretable against it.
+- **Authored test data, single error per flawed sentence.** Real learner
+  utterances stack multiple errors and have anglicized phrasing; the corpus
+  doesn't. Per-class rates (n≈3–5 each) are directional only — pooled metrics are
+  the real read, as in the prior spikes.
 
 ## Testing & error handling
 
