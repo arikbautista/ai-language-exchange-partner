@@ -19,7 +19,7 @@ Pre-implementation. The product design and milestone roadmap below were approved
 
 - Next.js (App Router) + TypeScript + Tailwind + shadcn/ui, as a PWA — **no separate backend** (no Express); Next.js API routes only
 - Supabase (Postgres + Auth) + Drizzle ORM
-- Vercel AI SDK as the model abstraction layer — Claude Sonnet for the partner, a cheap fast model (e.g., Haiku) for the parallel correction pass
+- Vercel AI SDK as the model abstraction layer — OpenAI `gpt-4o` for the partner, `gpt-4o-mini` for the parallel correction pass (provisional, chosen 2026-06-16 for single-provider simplicity; the SDK keeps the seam to switch the partner back to Claude Sonnet later). Model IDs are always config values, never hardcoded.
 - STT: OpenAI `gpt-4o-transcribe`; TTS: Google Cloud TTS vs. OpenAI TTS (bake-off scheduled in M1)
 - kuroshiro + kuromoji for tokenization and the furigana toggle
 - Vercel hosting; PostHog analytics
