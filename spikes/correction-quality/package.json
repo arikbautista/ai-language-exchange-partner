@@ -1,0 +1,20 @@
+{
+  "name": "correction-quality-spike",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "test": "node --import tsx --test src/scoring.test.ts",
+    "correct": "tsx src/correct.ts",
+    "judge": "tsx src/judge.ts",
+    "score": "tsx src/score.ts"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "openai": "^4.70.0"
+  },
+  "devDependencies": {
+    "tsx": "^4.19.0",
+    "typescript": "^5.6.0"
+  }
+}
