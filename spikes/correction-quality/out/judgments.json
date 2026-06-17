@@ -1,0 +1,262 @@
+[
+  {
+    "sentenceId": "p1",
+    "framing": "isolated",
+    "correctionIndex": 0,
+    "model": "gpt-4o",
+    "acceptable": true,
+    "explanationQuality": "pass",
+    "reason": "提案された修正は正しく、説明も適切であるため。",
+    "at": "2026-06-17T02:05:03.130Z"
+  },
+  {
+    "sentenceId": "p1",
+    "framing": "framed",
+    "correctionIndex": 0,
+    "model": "gpt-4o",
+    "acceptable": true,
+    "explanationQuality": "pass",
+    "reason": "提案された修正は正しく、説明も適切であるため。",
+    "at": "2026-06-17T02:05:04.047Z"
+  },
+  {
+    "sentenceId": "p2",
+    "framing": "isolated",
+    "correctionIndex": 0,
+    "model": "gpt-4o",
+    "acceptable": true,
+    "explanationQuality": "pass",
+    "reason": "提案は正しい修正であり、説明も適切で役立つ。",
+    "at": "2026-06-17T02:05:05.087Z"
+  },
+  {
+    "sentenceId": "p2",
+    "framing": "framed",
+    "correctionIndex": 0,
+    "model": "gpt-4o",
+    "acceptable": true,
+    "explanationQuality": "pass",
+    "reason": "提案された修正は正しく、説明も「会う」の目的語に「に」を使う理由を明確に示しています。",
+    "at": "2026-06-17T02:05:06.290Z"
+  },
+  {
+    "sentenceId": "p3",
+    "framing": "isolated",
+    "correctionIndex": 0,
+    "model": "gpt-4o",
+    "acceptable": true,
+    "explanationQuality": "pass",
+    "reason": "「行く」には目的地を示す助詞「に」を使うのが正しいため、suggestionは適切です。説明も正確で役立ちます。",
+    "at": "2026-06-17T02:05:07.324Z"
+  },
+  {
+    "sentenceId": "p3",
+    "framing": "framed",
+    "correctionIndex": 0,
+    "model": "gpt-4o",
+    "acceptable": true,
+    "explanationQuality": "pass",
+    "reason": "提案された修正は正しく、説明も適切であるため。",
+    "at": "2026-06-17T02:05:08.305Z"
+  },
+  {
+    "sentenceId": "p4",
+    "framing": "isolated",
+    "correctionIndex": 0,
+    "model": "gpt-4o",
+    "acceptable": true,
+    "explanationQuality": "pass",
+    "reason": "指摘は正確で、誤りを解消する自然な修正を提供しています。説明も適切です。",
+    "at": "2026-06-17T02:05:09.742Z"
+  },
+  {
+    "sentenceId": "p4",
+    "framing": "framed",
+    "correctionIndex": 0,
+    "model": "gpt-4o",
+    "acceptable": true,
+    "explanationQuality": "pass",
+    "reason": "指摘は正しい修正を提案しており、説明も適切です。",
+    "at": "2026-06-17T02:05:10.638Z"
+  },
+  {
+    "sentenceId": "v1",
+    "framing": "isolated",
+    "correctionIndex": 0,
+    "model": "gpt-4o",
+    "acceptable": true,
+    "explanationQuality": "pass",
+    "reason": "提案は正しい過去形を使用しており、説明も過去形の必要性を明確に伝えている。",
+    "at": "2026-06-17T02:05:11.683Z"
+  },
+  {
+    "sentenceId": "v1",
+    "framing": "framed",
+    "correctionIndex": 0,
+    "model": "gpt-4o",
+    "acceptable": true,
+    "explanationQuality": "pass",
+    "reason": "過去形にする必要があるという説明は正確で、学習者にとって役立つ情報です。",
+    "at": "2026-06-17T02:05:12.616Z"
+  },
+  {
+    "sentenceId": "v2",
+    "framing": "isolated",
+    "correctionIndex": 0,
+    "model": "gpt-4o",
+    "acceptable": true,
+    "explanationQuality": "pass",
+    "reason": "「寒いだから」は不自然で、「寒いので」は自然な表現です。説明も正確です。",
+    "at": "2026-06-17T02:05:13.686Z"
+  },
+  {
+    "sentenceId": "v2",
+    "framing": "framed",
+    "correctionIndex": 0,
+    "model": "gpt-4o",
+    "acceptable": true,
+    "explanationQuality": "pass",
+    "reason": "「寒いので」は自然で正しい修正であり、説明も正確で役立つ。",
+    "at": "2026-06-17T02:05:14.547Z"
+  },
+  {
+    "sentenceId": "v3",
+    "framing": "isolated",
+    "correctionIndex": 0,
+    "model": "gpt-4o",
+    "acceptable": true,
+    "explanationQuality": "pass",
+    "reason": "提案された修正は正しく、説明も適切で役立つものです。",
+    "at": "2026-06-17T02:05:16.050Z"
+  },
+  {
+    "sentenceId": "v3",
+    "framing": "framed",
+    "correctionIndex": 0,
+    "model": "gpt-4o",
+    "acceptable": true,
+    "explanationQuality": "pass",
+    "reason": "提案された修正は正しく、説明も適切で役に立ちます。",
+    "at": "2026-06-17T02:05:16.984Z"
+  },
+  {
+    "sentenceId": "o1",
+    "framing": "isolated",
+    "correctionIndex": 0,
+    "model": "gpt-4o",
+    "acceptable": true,
+    "explanationQuality": "pass",
+    "reason": "提案された修正は自然で正しい日本語であり、誤りを解消しています。説明も正確で中級学習者に役立ちます。",
+    "at": "2026-06-17T02:05:18.122Z"
+  },
+  {
+    "sentenceId": "o1",
+    "framing": "framed",
+    "correctionIndex": 0,
+    "model": "gpt-4o",
+    "acceptable": true,
+    "explanationQuality": "pass",
+    "reason": "提案された修正は自然で正しい日本語であり、説明も正確で役立つ。",
+    "at": "2026-06-17T02:05:19.186Z"
+  },
+  {
+    "sentenceId": "o2",
+    "framing": "isolated",
+    "correctionIndex": 0,
+    "model": "gpt-4o",
+    "acceptable": true,
+    "explanationQuality": "pass",
+    "reason": "提案は誤りを正しく修正しており、所有を表す語順についての説明も正確で役立ちます。",
+    "at": "2026-06-17T02:05:20.694Z"
+  },
+  {
+    "sentenceId": "o2",
+    "framing": "framed",
+    "correctionIndex": 0,
+    "model": "gpt-4o",
+    "acceptable": true,
+    "explanationQuality": "pass",
+    "reason": "提案は誤りを正しく修正しており、所有を表す語順についての説明も正確で役立ちます。",
+    "at": "2026-06-17T02:05:21.625Z"
+  },
+  {
+    "sentenceId": "o3",
+    "framing": "isolated",
+    "correctionIndex": 0,
+    "model": "gpt-4o",
+    "acceptable": true,
+    "explanationQuality": "pass",
+    "reason": "提案された修正は文法的に正しく、自然な日本語です。説明も時間を表す言葉の位置について正確で役立ちます。",
+    "at": "2026-06-17T02:05:23.603Z"
+  },
+  {
+    "sentenceId": "o3",
+    "framing": "framed",
+    "correctionIndex": 0,
+    "model": "gpt-4o",
+    "acceptable": true,
+    "explanationQuality": "pass",
+    "reason": "提案された修正は自然で正しい日本語であり、誤りを解消しています。説明も正確で役に立ちます。",
+    "at": "2026-06-17T02:05:24.764Z"
+  },
+  {
+    "sentenceId": "w1",
+    "framing": "isolated",
+    "correctionIndex": 0,
+    "model": "gpt-4o",
+    "acceptable": true,
+    "explanationQuality": "pass",
+    "reason": "提案された修正は正しく、薬に対しては「飲む」を使うのが自然です。説明も正確で役立ちます。",
+    "at": "2026-06-17T02:05:25.682Z"
+  },
+  {
+    "sentenceId": "w1",
+    "framing": "framed",
+    "correctionIndex": 0,
+    "model": "gpt-4o",
+    "acceptable": true,
+    "explanationQuality": "pass",
+    "reason": "提案された修正は正しく、説明も薬に対して「飲む」を使う理由を明確にしています。",
+    "at": "2026-06-17T02:05:27.125Z"
+  },
+  {
+    "sentenceId": "w2",
+    "framing": "isolated",
+    "correctionIndex": 0,
+    "model": "gpt-4o",
+    "acceptable": true,
+    "explanationQuality": "pass",
+    "reason": "「かぶる」は帽子に対して正しい動詞であり、説明も適切です。",
+    "at": "2026-06-17T02:05:28.009Z"
+  },
+  {
+    "sentenceId": "w2",
+    "framing": "framed",
+    "correctionIndex": 0,
+    "model": "gpt-4o",
+    "acceptable": true,
+    "explanationQuality": "pass",
+    "reason": "指摘は正確で、帽子に対する適切な動詞の選択を説明している。",
+    "at": "2026-06-17T02:05:28.941Z"
+  },
+  {
+    "sentenceId": "w3",
+    "framing": "isolated",
+    "correctionIndex": 0,
+    "model": "gpt-4o",
+    "acceptable": true,
+    "explanationQuality": "pass",
+    "reason": "提案された修正は自然で正しい日本語であり、誤りを解消しています。説明も正確で役に立ちます。",
+    "at": "2026-06-17T02:05:29.761Z"
+  },
+  {
+    "sentenceId": "w3",
+    "framing": "framed",
+    "correctionIndex": 0,
+    "model": "gpt-4o",
+    "acceptable": true,
+    "explanationQuality": "pass",
+    "reason": "「約束をする」が自然な表現であり、説明も正確で役立つため。",
+    "at": "2026-06-17T02:05:30.597Z"
+  }
+]
