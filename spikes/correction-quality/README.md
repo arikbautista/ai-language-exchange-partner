@@ -138,9 +138,11 @@ is needed to answer the context question properly.
 - **M3 (corrections):** gpt-4o-mini is the right model for the parallel correction
   pass — cheap, precise (no over-correction), and accurate on the fixes it makes.
   Ship it, but **harden register detection in the correction prompt and re-run this
-  harness** before wiring corrections into the product. The structured-JSON output
-  contract (`{corrections:[{original,suggestion,errorClass,explanation}]}`) is
-  liftable into M3 as-is.
+  harness** before wiring corrections into the product — see
+  [`FOLLOWUP-register.md`](FOLLOWUP-register.md) for the self-contained investigation
+  brief (root cause, exact task, acceptance criteria, the precision/recall tension to
+  watch). The structured-JSON output contract
+  (`{corrections:[{original,suggestion,errorClass,explanation}]}`) is liftable into M3 as-is.
 - **M3:** the correction pass should run with conversation context regardless of
   this spike's null delta — context is needed to make register judgeable at all, and
   the generic frame here didn't test that. Add register-diagnostic frames when
