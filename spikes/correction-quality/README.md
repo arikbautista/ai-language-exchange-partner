@@ -7,6 +7,45 @@ and does conversational context change that?
 
 **Answer:** **Yes, with one fix first. gpt-4o-mini never over-corrected (control-clean 100%, including casual and filler traps), every fix it proposed was acceptable Japanese (acceptable 100%), and it caught particle / conjugation / word-order / word-choice errors essentially perfectly. Its one real weakness is register: it flagged 0 of 4 register errors, because the prompt tells it to be conservative about politeness. That's a prompt fix, not a model limitation — so the recommendation is (c): harden the register instruction and re-test before M3. Conversational context made no difference here (isolated vs framed delta = 0).**
 
+## Update (2026-06-19): register hardening — resolved
+
+The register fix from recommendation (c) is done; see [`FOLLOWUP-register.md`](FOLLOWUP-register.md)
+for the full brief. The correction prompt in `src/config.ts` now carries an explicit
+two-direction register trigger (too-casual to a named superior; over-formal keigo to a
+peer) while keeping the "casual tone alone isn't an error" guard. The register set was
+expanded 2 → 6 (teacher/customer/boss/interviewer + over-formal) with register-diagnostic
+frames, plus matched casual-to-peer controls (`cr1`/`cr2`).
+
+**Outcome: register went from a total blind spot (0/4) to mostly-caught, with precision
+untouched.** Across three runs (baseline + two prompt iterations) the lesson was that
+register **recall is prompt-brittle** at this corpus size — it swings 67–83% depending on
+wording, at temperature 0, on n=12 register data points — while **precision is bulletproof**
+(control-clean stayed **100% in every run**, including casual-to-peer). The shipped prompt
+("run 3", current in `src/config.ts`) is the safest config:
+
+| metric (run 3) | isolated | framed |
+|---|---|---|
+| catch rate | 84% (16/19) | 84% (16/19) |
+| control-clean | 100% (17/17) | 100% (17/17) |
+| correction-acceptable (judge) | 100% (16/16) | 100% (16/16) |
+| register catch (pooled) | 67% (8/12) | |
+
+Run 3 nails all four grammar classes (particle/conjugation*/word-order/word-choice) and
+every correction it makes is judge-acceptable. Register recall is lumpier than the grammar
+classes: the dominant **under-politeness** direction is solid (`r1`/`r3`/`r4` caught), while
+boundary cases (`r2` お客様、ちょっと待って and over-formal-isolated `r5`) are the residual
+misses. We **stopped prompt-golfing deliberately** — a tighter prompt that recovered one
+case lost another, which on a 12-sentence authored corpus is fitting noise, not improvement.
+
+**Why this is shippable.** For a low-pressure conversation partner, a *missed* register flag
+is the gentlest possible failure — the partner just stays quiet, which is its stated
+philosophy. Over-correction would be the damaging failure, and that never happened. So
+register's ~70% recall / 100% precision is acceptable for M3; the residual misses are soft
+spots to watch against **real M3 telemetry**, not more authored sentences.
+
+(*conjugation shows 67% via the known `v3` insertion scorer-artifact; true ≈100% — see
+`out/review.md`.)
+
 ## Results
 
 30 sentences × 2 framings (isolated / framed) = 60 correction calls (`gpt-4o-mini`,
@@ -137,11 +176,12 @@ is needed to answer the context question properly.
 
 - **M3 (corrections):** gpt-4o-mini is the right model for the parallel correction
   pass — cheap, precise (no over-correction), and accurate on the fixes it makes.
-  Ship it, but **harden register detection in the correction prompt and re-run this
-  harness** before wiring corrections into the product — see
-  [`FOLLOWUP-register.md`](FOLLOWUP-register.md) for the self-contained investigation
-  brief (root cause, exact task, acceptance criteria, the precision/recall tension to
-  watch). The structured-JSON output contract
+  Ship it with the **hardened register prompt** (`src/config.ts`, "run 3") — the
+  register follow-up is resolved (see the 2026-06-19 update above and
+  [`FOLLOWUP-register.md`](FOLLOWUP-register.md)). Carry forward the documented register
+  caveat: ~70% recall / 100% precision, lumpy on boundary cases — instrument register
+  catch against real learner utterances in M3 rather than tuning further on authored
+  data. The structured-JSON output contract
   (`{corrections:[{original,suggestion,errorClass,explanation}]}`) is liftable into M3 as-is.
 - **M3:** the correction pass should run with conversation context regardless of
   this spike's null delta — context is needed to make register judgeable at all, and

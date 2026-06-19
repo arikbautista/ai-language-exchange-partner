@@ -6,8 +6,8 @@
     "model": "gpt-4o",
     "acceptable": true,
     "explanationQuality": "pass",
-    "reason": "提案された修正は正しく、説明も適切であるため。",
-    "at": "2026-06-17T02:05:03.130Z"
+    "reason": "助詞の誤りを正しく修正しており、説明も適切であるため。",
+    "at": "2026-06-17T13:29:04.579Z"
   },
   {
     "sentenceId": "p1",
@@ -16,8 +16,8 @@
     "model": "gpt-4o",
     "acceptable": true,
     "explanationQuality": "pass",
-    "reason": "提案された修正は正しく、説明も適切であるため。",
-    "at": "2026-06-17T02:05:04.047Z"
+    "reason": "指摘は正しい助詞の使用を示しており、説明も適切である。",
+    "at": "2026-06-17T13:29:05.530Z"
   },
   {
     "sentenceId": "p2",
@@ -26,8 +26,8 @@
     "model": "gpt-4o",
     "acceptable": true,
     "explanationQuality": "pass",
-    "reason": "提案は正しい修正であり、説明も適切で役立つ。",
-    "at": "2026-06-17T02:05:05.087Z"
+    "reason": "「会う」の目的語には「に」を使うのが正しいため、指摘は適切です。説明も正確で役立ちます。",
+    "at": "2026-06-17T13:29:06.807Z"
   },
   {
     "sentenceId": "p2",
@@ -36,8 +36,8 @@
     "model": "gpt-4o",
     "acceptable": true,
     "explanationQuality": "pass",
-    "reason": "提案された修正は正しく、説明も「会う」の目的語に「に」を使う理由を明確に示しています。",
-    "at": "2026-06-17T02:05:06.290Z"
+    "reason": "助詞の誤りを正しく修正しており、説明も適切です。",
+    "at": "2026-06-17T13:29:07.831Z"
   },
   {
     "sentenceId": "p3",
@@ -46,8 +46,8 @@
     "model": "gpt-4o",
     "acceptable": true,
     "explanationQuality": "pass",
-    "reason": "「行く」には目的地を示す助詞「に」を使うのが正しいため、suggestionは適切です。説明も正確で役立ちます。",
-    "at": "2026-06-17T02:05:07.324Z"
+    "reason": "提案された修正は正しく、説明も適切で中級学習者に役立つ情報を提供しています。",
+    "at": "2026-06-17T13:29:08.910Z"
   },
   {
     "sentenceId": "p3",
@@ -56,8 +56,8 @@
     "model": "gpt-4o",
     "acceptable": true,
     "explanationQuality": "pass",
-    "reason": "提案された修正は正しく、説明も適切であるため。",
-    "at": "2026-06-17T02:05:08.305Z"
+    "reason": "助詞の誤りを正しく修正しており、説明も適切であるため。",
+    "at": "2026-06-17T13:29:09.978Z"
   },
   {
     "sentenceId": "p4",
@@ -66,8 +66,8 @@
     "model": "gpt-4o",
     "acceptable": true,
     "explanationQuality": "pass",
-    "reason": "指摘は正確で、誤りを解消する自然な修正を提供しています。説明も適切です。",
-    "at": "2026-06-17T02:05:09.742Z"
+    "reason": "提案された修正は正しく、説明も適切です。",
+    "at": "2026-06-17T13:29:10.781Z"
   },
   {
     "sentenceId": "p4",
@@ -76,8 +76,8 @@
     "model": "gpt-4o",
     "acceptable": true,
     "explanationQuality": "pass",
-    "reason": "指摘は正しい修正を提案しており、説明も適切です。",
-    "at": "2026-06-17T02:05:10.638Z"
+    "reason": "指摘は正確で、誤りを適切に修正しており、説明も中級学習者にとって役立つ内容です。",
+    "at": "2026-06-17T13:29:12.015Z"
   },
   {
     "sentenceId": "v1",
@@ -86,8 +86,8 @@
     "model": "gpt-4o",
     "acceptable": true,
     "explanationQuality": "pass",
-    "reason": "提案は正しい過去形を使用しており、説明も過去形の必要性を明確に伝えている。",
-    "at": "2026-06-17T02:05:11.683Z"
+    "reason": "指摘は正しい過去形を提案しており、説明も過去形の必要性を明確に伝えている。",
+    "at": "2026-06-17T13:29:12.891Z"
   },
   {
     "sentenceId": "v1",
@@ -96,8 +96,8 @@
     "model": "gpt-4o",
     "acceptable": true,
     "explanationQuality": "pass",
-    "reason": "過去形にする必要があるという説明は正確で、学習者にとって役立つ情報です。",
-    "at": "2026-06-17T02:05:12.616Z"
+    "reason": "提案された修正は正しい過去形を使用しており、説明も過去形の必要性を明確に伝えているため。",
+    "at": "2026-06-17T13:29:14.740Z"
   },
   {
     "sentenceId": "v2",
@@ -105,9 +105,9 @@
     "correctionIndex": 0,
     "model": "gpt-4o",
     "acceptable": true,
-    "explanationQuality": "pass",
-    "reason": "「寒いだから」は不自然で、「寒いので」は自然な表現です。説明も正確です。",
-    "at": "2026-06-17T02:05:13.686Z"
+    "explanationQuality": "borderline",
+    "reason": "修正は自然で正しいが、説明が不完全で、い形容詞の接続についての詳細が不足している。",
+    "at": "2026-06-17T13:29:15.781Z"
   },
   {
     "sentenceId": "v2",
@@ -117,47 +117,47 @@
     "acceptable": true,
     "explanationQuality": "pass",
     "reason": "「寒いので」は自然で正しい修正であり、説明も正確で役立つ。",
-    "at": "2026-06-17T02:05:14.547Z"
+    "at": "2026-06-17T13:29:17.104Z"
   },
   {
     "sentenceId": "v3",
     "framing": "isolated",
-    "correctionIndex": 0,
-    "model": "gpt-4o",
-    "acceptable": true,
-    "explanationQuality": "pass",
-    "reason": "提案された修正は正しく、説明も適切で役立つものです。",
-    "at": "2026-06-17T02:05:16.050Z"
-  },
-  {
-    "sentenceId": "v3",
-    "framing": "framed",
-    "correctionIndex": 0,
-    "model": "gpt-4o",
-    "acceptable": true,
-    "explanationQuality": "pass",
-    "reason": "提案された修正は正しく、説明も適切で役に立ちます。",
-    "at": "2026-06-17T02:05:16.984Z"
-  },
-  {
-    "sentenceId": "o1",
-    "framing": "isolated",
-    "correctionIndex": 0,
-    "model": "gpt-4o",
-    "acceptable": true,
-    "explanationQuality": "pass",
-    "reason": "提案された修正は自然で正しい日本語であり、誤りを解消しています。説明も正確で中級学習者に役立ちます。",
-    "at": "2026-06-17T02:05:18.122Z"
-  },
-  {
-    "sentenceId": "o1",
-    "framing": "framed",
     "correctionIndex": 0,
     "model": "gpt-4o",
     "acceptable": true,
     "explanationQuality": "pass",
     "reason": "提案された修正は自然で正しい日本語であり、説明も正確で役立つ。",
-    "at": "2026-06-17T02:05:19.186Z"
+    "at": "2026-06-17T13:29:18.195Z"
+  },
+  {
+    "sentenceId": "v3",
+    "framing": "framed",
+    "correctionIndex": 0,
+    "model": "gpt-4o",
+    "acceptable": true,
+    "explanationQuality": "borderline",
+    "reason": "修正は正しいが、説明が不十分で、名詞化の重要性を説明していない。",
+    "at": "2026-06-17T13:29:19.412Z"
+  },
+  {
+    "sentenceId": "o1",
+    "framing": "isolated",
+    "correctionIndex": 0,
+    "model": "gpt-4o",
+    "acceptable": true,
+    "explanationQuality": "pass",
+    "reason": "指摘は誤りを正しく修正しており、説明も適切であるため。",
+    "at": "2026-06-17T13:29:20.610Z"
+  },
+  {
+    "sentenceId": "o1",
+    "framing": "framed",
+    "correctionIndex": 0,
+    "model": "gpt-4o",
+    "acceptable": true,
+    "explanationQuality": "pass",
+    "reason": "提案された修正は自然で正しい日本語であり、説明も正確で役に立ちます。",
+    "at": "2026-06-17T13:29:21.835Z"
   },
   {
     "sentenceId": "o2",
@@ -166,8 +166,8 @@
     "model": "gpt-4o",
     "acceptable": true,
     "explanationQuality": "pass",
-    "reason": "提案は誤りを正しく修正しており、所有を表す語順についての説明も正確で役立ちます。",
-    "at": "2026-06-17T02:05:20.694Z"
+    "reason": "提案は誤りを正しく修正しており、説明も正確で役立つ。",
+    "at": "2026-06-17T13:29:23.677Z"
   },
   {
     "sentenceId": "o2",
@@ -177,7 +177,7 @@
     "acceptable": true,
     "explanationQuality": "pass",
     "reason": "提案は誤りを正しく修正しており、所有を表す語順についての説明も正確で役立ちます。",
-    "at": "2026-06-17T02:05:21.625Z"
+    "at": "2026-06-17T13:29:24.838Z"
   },
   {
     "sentenceId": "o3",
@@ -186,8 +186,8 @@
     "model": "gpt-4o",
     "acceptable": true,
     "explanationQuality": "pass",
-    "reason": "提案された修正は文法的に正しく、自然な日本語です。説明も時間を表す言葉の位置について正確で役立ちます。",
-    "at": "2026-06-17T02:05:23.603Z"
+    "reason": "修正は自然で正しい日本語であり、説明も正確で役立つ。",
+    "at": "2026-06-17T13:29:25.709Z"
   },
   {
     "sentenceId": "o3",
@@ -196,8 +196,8 @@
     "model": "gpt-4o",
     "acceptable": true,
     "explanationQuality": "pass",
-    "reason": "提案された修正は自然で正しい日本語であり、誤りを解消しています。説明も正確で役に立ちます。",
-    "at": "2026-06-17T02:05:24.764Z"
+    "reason": "修正は自然で正しい日本語であり、説明も時間を先に置く日本語の語順について正確に述べています。",
+    "at": "2026-06-17T13:29:26.789Z"
   },
   {
     "sentenceId": "w1",
@@ -206,8 +206,8 @@
     "model": "gpt-4o",
     "acceptable": true,
     "explanationQuality": "pass",
-    "reason": "提案された修正は正しく、薬に対しては「飲む」を使うのが自然です。説明も正確で役立ちます。",
-    "at": "2026-06-17T02:05:25.682Z"
+    "reason": "提案は誤りを正しく修正しており、説明も適切で役立つ。",
+    "at": "2026-06-17T13:29:27.913Z"
   },
   {
     "sentenceId": "w1",
@@ -216,8 +216,8 @@
     "model": "gpt-4o",
     "acceptable": true,
     "explanationQuality": "pass",
-    "reason": "提案された修正は正しく、説明も薬に対して「飲む」を使う理由を明確にしています。",
-    "at": "2026-06-17T02:05:27.125Z"
+    "reason": "「薬を飲みました」は自然で正しい表現であり、説明も適切です。",
+    "at": "2026-06-17T13:29:29.060Z"
   },
   {
     "sentenceId": "w2",
@@ -226,8 +226,8 @@
     "model": "gpt-4o",
     "acceptable": true,
     "explanationQuality": "pass",
-    "reason": "「かぶる」は帽子に対して正しい動詞であり、説明も適切です。",
-    "at": "2026-06-17T02:05:28.009Z"
+    "reason": "提案された修正は正しく、説明も適切で学習者に役立つ情報を提供しています。",
+    "at": "2026-06-17T13:29:30.627Z"
   },
   {
     "sentenceId": "w2",
@@ -236,8 +236,8 @@
     "model": "gpt-4o",
     "acceptable": true,
     "explanationQuality": "pass",
-    "reason": "指摘は正確で、帽子に対する適切な動詞の選択を説明している。",
-    "at": "2026-06-17T02:05:28.941Z"
+    "reason": "提案された修正は正しく、説明も適切で学習者に役立つ情報を提供しています。",
+    "at": "2026-06-17T13:29:35.507Z"
   },
   {
     "sentenceId": "w3",
@@ -246,8 +246,8 @@
     "model": "gpt-4o",
     "acceptable": true,
     "explanationQuality": "pass",
-    "reason": "提案された修正は自然で正しい日本語であり、誤りを解消しています。説明も正確で役に立ちます。",
-    "at": "2026-06-17T02:05:29.761Z"
+    "reason": "「約束をする」が自然な表現であり、指摘は正しい。説明も適切で、学習者にとって有用である。",
+    "at": "2026-06-17T13:29:36.906Z"
   },
   {
     "sentenceId": "w3",
@@ -256,7 +256,87 @@
     "model": "gpt-4o",
     "acceptable": true,
     "explanationQuality": "pass",
-    "reason": "「約束をする」が自然な表現であり、説明も正確で役立つため。",
-    "at": "2026-06-17T02:05:30.597Z"
+    "reason": "提案された修正は自然で正しい日本語であり、説明も正確で役に立ちます。",
+    "at": "2026-06-17T13:29:37.911Z"
+  },
+  {
+    "sentenceId": "r1",
+    "framing": "isolated",
+    "correctionIndex": 0,
+    "model": "gpt-4o",
+    "acceptable": true,
+    "explanationQuality": "pass",
+    "reason": "提案された修正は、敬語を使っており、教師に対する適切な表現です。説明も正確で役立ちます。",
+    "at": "2026-06-17T13:29:39.266Z"
+  },
+  {
+    "sentenceId": "r1",
+    "framing": "framed",
+    "correctionIndex": 0,
+    "model": "gpt-4o",
+    "acceptable": true,
+    "explanationQuality": "pass",
+    "reason": "提案された修正は、目上の人に対する適切な敬語表現であり、説明も正確で役立つ。",
+    "at": "2026-06-17T13:29:40.459Z"
+  },
+  {
+    "sentenceId": "r3",
+    "framing": "isolated",
+    "correctionIndex": 0,
+    "model": "gpt-4o",
+    "acceptable": true,
+    "explanationQuality": "pass",
+    "reason": "提案された修正は敬語を使用しており、目上の人に対する適切な表現です。説明も正確で役立ちます。",
+    "at": "2026-06-17T13:29:42.117Z"
+  },
+  {
+    "sentenceId": "r4",
+    "framing": "isolated",
+    "correctionIndex": 0,
+    "model": "gpt-4o",
+    "acceptable": true,
+    "explanationQuality": "pass",
+    "reason": "提案された修正は、敬語を使うべき状況で適切であり、説明も正確で役立つ。",
+    "at": "2026-06-17T13:29:43.459Z"
+  },
+  {
+    "sentenceId": "r4",
+    "framing": "framed",
+    "correctionIndex": 0,
+    "model": "gpt-4o",
+    "acceptable": true,
+    "explanationQuality": "pass",
+    "reason": "提案された修正は、敬語を使うべき状況において適切であり、説明も正確で役立つ。",
+    "at": "2026-06-17T13:29:45.083Z"
+  },
+  {
+    "sentenceId": "r5",
+    "framing": "framed",
+    "correctionIndex": 0,
+    "model": "gpt-4o",
+    "acceptable": true,
+    "explanationQuality": "pass",
+    "reason": "提案された修正は、親しい友達に対して適切なカジュアルな表現に変更されており、誤りを解消しています。説明も正確で役立ちます。",
+    "at": "2026-06-17T13:29:46.215Z"
+  },
+  {
+    "sentenceId": "r6",
+    "framing": "isolated",
+    "correctionIndex": 0,
+    "model": "gpt-4o",
+    "acceptable": true,
+    "explanationQuality": "pass",
+    "reason": "suggestionは元の文をよりカジュアルにし、親しい相手に対して自然な表現にしています。説明も親しい相手にはカジュアルな表現が適切であることを示しており、役立ちます。",
+    "at": "2026-06-17T13:29:48.207Z"
+  },
+  {
+    "sentenceId": "r6",
+    "framing": "framed",
+    "correctionIndex": 0,
+    "model": "gpt-4o",
+    "acceptable": true,
+    "explanationQuality": "pass",
+    "reason": "提案された修正は、親しい友達に対して適切なカジュアルな表現であり、説明も正確で役立つ。",
+    "at": "2026-06-17T13:29:49.618Z"
   }
 ]

@@ -8,10 +8,10 @@
         "original": "コーヒーが飲みます",
         "suggestion": "コーヒーを飲みます",
         "errorClass": "particle",
-        "explanation": "動詞「飲む」の目的語には「を」を使います。"
+        "explanation": "動詞「飲む」の目的語には助詞「を」を使います。"
       }
     ],
-    "at": "2026-06-17T02:01:46.116Z"
+    "at": "2026-06-17T13:27:54.403Z"
   },
   {
     "sentenceId": "p1",
@@ -22,10 +22,10 @@
         "original": "コーヒーが飲みます",
         "suggestion": "コーヒーを飲みます",
         "errorClass": "particle",
-        "explanation": "動詞「飲む」の目的語には「を」を使います。"
+        "explanation": "「飲む」の目的語には「を」を使います。"
       }
     ],
-    "at": "2026-06-17T02:01:47.598Z"
+    "at": "2026-06-17T13:27:55.453Z"
   },
   {
     "sentenceId": "p2",
@@ -33,13 +33,13 @@
     "model": "gpt-4o-mini",
     "corrections": [
       {
-        "original": "友達は会います",
-        "suggestion": "友達に会います",
+        "original": "友達は会います。",
+        "suggestion": "友達に会います。",
         "errorClass": "particle",
-        "explanation": "動詞「会う」の主語が「友達」ではなく、目的語が必要です。"
+        "explanation": "「会う」の目的語を示すために「に」を使う必要があります。"
       }
     ],
-    "at": "2026-06-17T02:01:48.813Z"
+    "at": "2026-06-17T13:27:56.603Z"
   },
   {
     "sentenceId": "p2",
@@ -50,28 +50,14 @@
         "original": "友達は会います",
         "suggestion": "友達に会います",
         "errorClass": "particle",
-        "explanation": "動詞「会う」の前には、目的語を示す「に」を使います。"
+        "explanation": "「会う」の場合、相手を示す助詞「に」を使います。"
       }
     ],
-    "at": "2026-06-17T02:01:50.379Z"
+    "at": "2026-06-17T13:27:57.972Z"
   },
   {
     "sentenceId": "p3",
     "framing": "isolated",
-    "model": "gpt-4o-mini",
-    "corrections": [
-      {
-        "original": "学校を行きます",
-        "suggestion": "学校に行きます",
-        "errorClass": "particle",
-        "explanation": "「行く」動詞には「に」を使います。"
-      }
-    ],
-    "at": "2026-06-17T02:01:51.444Z"
-  },
-  {
-    "sentenceId": "p3",
-    "framing": "framed",
     "model": "gpt-4o-mini",
     "corrections": [
       {
@@ -81,7 +67,21 @@
         "explanation": "「行く」の場合、目的地には「に」を使います。"
       }
     ],
-    "at": "2026-06-17T02:01:52.501Z"
+    "at": "2026-06-17T13:27:59.017Z"
+  },
+  {
+    "sentenceId": "p3",
+    "framing": "framed",
+    "model": "gpt-4o-mini",
+    "corrections": [
+      {
+        "original": "学校を行きます",
+        "suggestion": "学校に行きます",
+        "errorClass": "particle",
+        "explanation": "「行く」の目的地を示す助詞は「に」です。"
+      }
+    ],
+    "at": "2026-06-17T13:28:00.120Z"
   },
   {
     "sentenceId": "p4",
@@ -92,10 +92,10 @@
         "original": "私が名前は田中です。",
         "suggestion": "私の名前は田中です。",
         "errorClass": "particle",
-        "explanation": "「私が」ではなく「私の」を使うと自然な表現になります。"
+        "explanation": "「私が」ではなく「私の」を使うのが自然です。"
       }
     ],
-    "at": "2026-06-17T02:01:53.676Z"
+    "at": "2026-06-17T13:28:01.933Z"
   },
   {
     "sentenceId": "p4",
@@ -106,10 +106,10 @@
         "original": "私が名前は田中です。",
         "suggestion": "私の名前は田中です。",
         "errorClass": "particle",
-        "explanation": "「が」ではなく「の」を使うことで、正しい表現になります。"
+        "explanation": "「私が」ではなく「私の」を使うのが正しいです。"
       }
     ],
-    "at": "2026-06-17T02:01:54.743Z"
+    "at": "2026-06-17T13:28:03.052Z"
   },
   {
     "sentenceId": "v1",
@@ -117,13 +117,13 @@
     "model": "gpt-4o-mini",
     "corrections": [
       {
-        "original": "映画を見ます",
-        "suggestion": "映画を見ました",
+        "original": "見ます",
+        "suggestion": "見ました",
         "errorClass": "conjugation",
-        "explanation": "過去の出来事を話す場合は、動詞を過去形にする必要があります。"
+        "explanation": "過去の出来事を話しているので、動詞は過去形の「見ました」にする必要があります。"
       }
     ],
-    "at": "2026-06-17T02:01:55.874Z"
+    "at": "2026-06-17T13:28:04.128Z"
   },
   {
     "sentenceId": "v1",
@@ -131,17 +131,31 @@
     "model": "gpt-4o-mini",
     "corrections": [
       {
-        "original": "映画を見ます",
-        "suggestion": "映画を見ました",
+        "original": "見ます",
+        "suggestion": "見ました",
         "errorClass": "conjugation",
         "explanation": "過去の出来事を話すときは、動詞を過去形にする必要があります。"
       }
     ],
-    "at": "2026-06-17T02:01:57.219Z"
+    "at": "2026-06-17T13:28:05.239Z"
   },
   {
     "sentenceId": "v2",
     "framing": "isolated",
+    "model": "gpt-4o-mini",
+    "corrections": [
+      {
+        "original": "寒いだから",
+        "suggestion": "寒いので",
+        "errorClass": "particle",
+        "explanation": "原因を表す接続詞は「だから」ではなく「ので」を使います。"
+      }
+    ],
+    "at": "2026-06-17T13:28:06.959Z"
+  },
+  {
+    "sentenceId": "v2",
+    "framing": "framed",
     "model": "gpt-4o-mini",
     "corrections": [
       {
@@ -151,21 +165,7 @@
         "explanation": "「寒いだから」は不自然で、「寒いので」が正しい表現です。"
       }
     ],
-    "at": "2026-06-17T02:01:58.162Z"
-  },
-  {
-    "sentenceId": "v2",
-    "framing": "framed",
-    "model": "gpt-4o-mini",
-    "corrections": [
-      {
-        "original": "寒いだから",
-        "suggestion": "寒いので",
-        "errorClass": "particle",
-        "explanation": "「だから」は理由を示すときに使いますが、ここでは「ので」を使う方が自然です。"
-      }
-    ],
-    "at": "2026-06-17T02:01:59.440Z"
+    "at": "2026-06-17T13:28:07.955Z"
   },
   {
     "sentenceId": "v3",
@@ -174,12 +174,12 @@
     "corrections": [
       {
         "original": "読むできません",
-        "suggestion": "読むことができません",
-        "errorClass": "particle",
-        "explanation": "動詞の「読む」と「できる」を正しくつなげるために、「こと」を使う必要があります。"
+        "suggestion": "読めません",
+        "errorClass": "conjugation",
+        "explanation": "「読む」は「読める」の形にする必要があります。"
       }
     ],
-    "at": "2026-06-17T02:02:00.645Z"
+    "at": "2026-06-17T13:28:09.057Z"
   },
   {
     "sentenceId": "v3",
@@ -189,11 +189,11 @@
       {
         "original": "読むできません",
         "suggestion": "読むことができません",
-        "errorClass": "particle",
-        "explanation": "「読む」と「できません」の間に「こと」を入れる必要があります。"
+        "errorClass": "conjugation",
+        "explanation": "「読むできません」は不自然なので、「読むことができません」と言いましょう。"
       }
     ],
-    "at": "2026-06-17T02:02:01.880Z"
+    "at": "2026-06-17T13:28:10.398Z"
   },
   {
     "sentenceId": "o1",
@@ -201,13 +201,13 @@
     "model": "gpt-4o-mini",
     "corrections": [
       {
-        "original": "行きたいとても",
-        "suggestion": "とても行きたい",
+        "original": "行きたいとても。",
+        "suggestion": "とても行きたい。",
         "errorClass": "word-order",
-        "explanation": "形容詞や副詞は動詞の前に置くのが自然です。"
+        "explanation": "「とても」は「行きたい」の前に置くのが自然です。"
       }
     ],
-    "at": "2026-06-17T02:02:02.963Z"
+    "at": "2026-06-17T13:28:11.409Z"
   },
   {
     "sentenceId": "o1",
@@ -215,13 +215,13 @@
     "model": "gpt-4o-mini",
     "corrections": [
       {
-        "original": "行きたいとても",
+        "original": "とても",
         "suggestion": "とても行きたい",
         "errorClass": "word-order",
-        "explanation": "形容詞や副詞は動詞の前に置くのが自然です。"
+        "explanation": "「とても」は形容詞や副詞の前に置くのが自然です。"
       }
     ],
-    "at": "2026-06-17T02:02:04.141Z"
+    "at": "2026-06-17T13:28:12.702Z"
   },
   {
     "sentenceId": "o2",
@@ -231,11 +231,11 @@
       {
         "original": "これは本の私です。",
         "suggestion": "これは私の本です。",
-        "errorClass": "word-order",
-        "explanation": "所有を表す場合は「私の本」と言います。"
+        "errorClass": "particle",
+        "explanation": "「本の私」は不自然で、「私の本」が正しい表現です。"
       }
     ],
-    "at": "2026-06-17T02:02:05.188Z"
+    "at": "2026-06-17T13:28:13.712Z"
   },
   {
     "sentenceId": "o2",
@@ -249,7 +249,7 @@
         "explanation": "所有を表す場合は「私の本」と言います。"
       }
     ],
-    "at": "2026-06-17T02:02:06.218Z"
+    "at": "2026-06-17T13:28:14.848Z"
   },
   {
     "sentenceId": "o3",
@@ -263,7 +263,7 @@
         "explanation": "日本語では、時間を表す言葉は通常文の前に置きます。"
       }
     ],
-    "at": "2026-06-17T02:02:07.336Z"
+    "at": "2026-06-17T13:28:15.953Z"
   },
   {
     "sentenceId": "o3",
@@ -274,10 +274,10 @@
         "original": "映画を見ました昨日。",
         "suggestion": "昨日映画を見ました。",
         "errorClass": "word-order",
-        "explanation": "日本語では、時間を表す言葉は通常文の前に置きます。"
+        "explanation": "日本語では時間を先に言うのが自然です。"
       }
     ],
-    "at": "2026-06-17T02:02:08.526Z"
+    "at": "2026-06-17T13:28:16.987Z"
   },
   {
     "sentenceId": "w1",
@@ -291,7 +291,7 @@
         "explanation": "薬は通常「飲む」と言います。"
       }
     ],
-    "at": "2026-06-17T02:02:09.550Z"
+    "at": "2026-06-17T13:28:18.276Z"
   },
   {
     "sentenceId": "w1",
@@ -302,10 +302,10 @@
         "original": "薬を食べました。",
         "suggestion": "薬を飲みました。",
         "errorClass": "word-choice",
-        "explanation": "薬は通常「飲む」と言います。"
+        "explanation": "「食べる」は食べ物に使いますが、薬には「飲む」を使います。"
       }
     ],
-    "at": "2026-06-17T02:02:10.772Z"
+    "at": "2026-06-17T13:28:19.433Z"
   },
   {
     "sentenceId": "w2",
@@ -316,10 +316,10 @@
         "original": "帽子を着ています。",
         "suggestion": "帽子をかぶっています。",
         "errorClass": "word-choice",
-        "explanation": "「着る」は服に使う動詞で、帽子には「かぶる」を使います。"
+        "explanation": "「着る」は服を着るときに使いますが、帽子には「かぶる」を使います。"
       }
     ],
-    "at": "2026-06-17T02:02:11.879Z"
+    "at": "2026-06-17T13:28:20.560Z"
   },
   {
     "sentenceId": "w2",
@@ -330,10 +330,10 @@
         "original": "帽子を着ています。",
         "suggestion": "帽子をかぶっています。",
         "errorClass": "word-choice",
-        "explanation": "「着る」は衣服に使いますが、帽子には「かぶる」を使います。"
+        "explanation": "「着る」は服を着るときに使いますが、帽子には「かぶる」を使います。"
       }
     ],
-    "at": "2026-06-17T02:02:13.211Z"
+    "at": "2026-06-17T13:28:21.643Z"
   },
   {
     "sentenceId": "w3",
@@ -344,10 +344,10 @@
         "original": "約束を作りました",
         "suggestion": "約束をしました",
         "errorClass": "word-choice",
-        "explanation": "日本語では「約束をする」という表現が一般的です。"
+        "explanation": "日本語では「約束を作る」より「約束をする」という表現が一般的です。"
       }
     ],
-    "at": "2026-06-17T02:02:14.240Z"
+    "at": "2026-06-17T13:28:23.079Z"
   },
   {
     "sentenceId": "w3",
@@ -358,247 +358,387 @@
         "original": "約束を作りました",
         "suggestion": "約束をしました",
         "errorClass": "word-choice",
-        "explanation": "日本語では「約束をする」という表現が一般的です。"
+        "explanation": "日本語では「約束を作る」より「約束をする」という表現が一般的です。"
       }
     ],
-    "at": "2026-06-17T02:02:15.417Z"
+    "at": "2026-06-17T13:28:24.339Z"
   },
   {
     "sentenceId": "r1",
     "framing": "isolated",
     "model": "gpt-4o-mini",
-    "corrections": [],
-    "at": "2026-06-17T02:02:15.900Z"
+    "corrections": [
+      {
+        "original": "休むね",
+        "suggestion": "休みますね",
+        "errorClass": "register",
+        "explanation": "先生に対しては丁寧な言い方が適切です。"
+      }
+    ],
+    "at": "2026-06-17T13:28:25.385Z"
   },
   {
     "sentenceId": "r1",
     "framing": "framed",
     "model": "gpt-4o-mini",
-    "corrections": [],
-    "at": "2026-06-17T02:02:16.406Z"
+    "corrections": [
+      {
+        "original": "休むね",
+        "suggestion": "休みます",
+        "errorClass": "register",
+        "explanation": "目上の人に対しては、丁寧な言い方を使った方が良いです。"
+      }
+    ],
+    "at": "2026-06-17T13:28:26.454Z"
   },
   {
     "sentenceId": "r2",
     "framing": "isolated",
     "model": "gpt-4o-mini",
     "corrections": [],
-    "at": "2026-06-17T02:02:16.957Z"
+    "at": "2026-06-17T13:28:27.506Z"
   },
   {
     "sentenceId": "r2",
     "framing": "framed",
     "model": "gpt-4o-mini",
     "corrections": [],
-    "at": "2026-06-17T02:02:17.424Z"
+    "at": "2026-06-17T13:28:28.042Z"
   },
   {
     "sentenceId": "f1",
     "framing": "isolated",
     "model": "gpt-4o-mini",
     "corrections": [],
-    "at": "2026-06-17T02:02:17.983Z"
+    "at": "2026-06-17T13:28:28.569Z"
   },
   {
     "sentenceId": "f1",
     "framing": "framed",
     "model": "gpt-4o-mini",
     "corrections": [],
-    "at": "2026-06-17T02:02:18.538Z"
+    "at": "2026-06-17T13:28:29.150Z"
   },
   {
     "sentenceId": "f2",
     "framing": "isolated",
     "model": "gpt-4o-mini",
     "corrections": [],
-    "at": "2026-06-17T02:02:19.077Z"
+    "at": "2026-06-17T13:28:29.710Z"
   },
   {
     "sentenceId": "f2",
     "framing": "framed",
     "model": "gpt-4o-mini",
     "corrections": [],
-    "at": "2026-06-17T02:02:19.545Z"
+    "at": "2026-06-17T13:28:30.223Z"
   },
   {
     "sentenceId": "c1",
     "framing": "isolated",
     "model": "gpt-4o-mini",
     "corrections": [],
-    "at": "2026-06-17T02:02:20.067Z"
+    "at": "2026-06-17T13:28:30.801Z"
   },
   {
     "sentenceId": "c1",
     "framing": "framed",
     "model": "gpt-4o-mini",
     "corrections": [],
-    "at": "2026-06-17T02:02:20.649Z"
+    "at": "2026-06-17T13:28:31.251Z"
   },
   {
     "sentenceId": "c2",
     "framing": "isolated",
     "model": "gpt-4o-mini",
     "corrections": [],
-    "at": "2026-06-17T02:02:21.361Z"
+    "at": "2026-06-17T13:28:31.877Z"
   },
   {
     "sentenceId": "c2",
     "framing": "framed",
     "model": "gpt-4o-mini",
     "corrections": [],
-    "at": "2026-06-17T02:02:21.906Z"
+    "at": "2026-06-17T13:28:32.357Z"
   },
   {
     "sentenceId": "c3",
     "framing": "isolated",
     "model": "gpt-4o-mini",
     "corrections": [],
-    "at": "2026-06-17T02:02:22.437Z"
+    "at": "2026-06-17T13:28:32.811Z"
   },
   {
     "sentenceId": "c3",
     "framing": "framed",
     "model": "gpt-4o-mini",
     "corrections": [],
-    "at": "2026-06-17T02:02:22.971Z"
+    "at": "2026-06-17T13:28:33.340Z"
   },
   {
     "sentenceId": "c4",
     "framing": "isolated",
     "model": "gpt-4o-mini",
     "corrections": [],
-    "at": "2026-06-17T02:02:23.537Z"
+    "at": "2026-06-17T13:28:34.042Z"
   },
   {
     "sentenceId": "c4",
     "framing": "framed",
     "model": "gpt-4o-mini",
     "corrections": [],
-    "at": "2026-06-17T02:02:24.041Z"
+    "at": "2026-06-17T13:28:34.583Z"
+  },
+  {
+    "sentenceId": "r3",
+    "framing": "isolated",
+    "model": "gpt-4o-mini",
+    "corrections": [
+      {
+        "original": "送ったよ",
+        "suggestion": "送りました",
+        "errorClass": "register",
+        "explanation": "目上の人に対しては、丁寧な言い方を使うべきです。"
+      }
+    ],
+    "at": "2026-06-17T13:28:35.974Z"
+  },
+  {
+    "sentenceId": "r3",
+    "framing": "framed",
+    "model": "gpt-4o-mini",
+    "corrections": [],
+    "at": "2026-06-17T13:28:36.451Z"
+  },
+  {
+    "sentenceId": "r4",
+    "framing": "isolated",
+    "model": "gpt-4o-mini",
+    "corrections": [
+      {
+        "original": "御社で働きたいんだ。",
+        "suggestion": "御社で働きたいです。",
+        "errorClass": "register",
+        "explanation": "目上の相手に対しては、丁寧な言い方を使った方が良いです。"
+      }
+    ],
+    "at": "2026-06-17T13:28:38.098Z"
+  },
+  {
+    "sentenceId": "r4",
+    "framing": "framed",
+    "model": "gpt-4o-mini",
+    "corrections": [
+      {
+        "original": "御社で働きたいんだ。",
+        "suggestion": "御社で働きたいです。",
+        "errorClass": "register",
+        "explanation": "目上の相手に対しては、丁寧な言い方を使った方が良いです。"
+      }
+    ],
+    "at": "2026-06-17T13:28:39.369Z"
+  },
+  {
+    "sentenceId": "r5",
+    "framing": "isolated",
+    "model": "gpt-4o-mini",
+    "corrections": [],
+    "at": "2026-06-17T13:28:39.967Z"
+  },
+  {
+    "sentenceId": "r5",
+    "framing": "framed",
+    "model": "gpt-4o-mini",
+    "corrections": [
+      {
+        "original": "申し訳ありませんが、その日は予定がございます。",
+        "suggestion": "ごめん、その日は予定があるんだ。",
+        "errorClass": "register",
+        "explanation": "親しい友達に対して堅い敬語を使っています。カジュアルな言い方にすると自然です。"
+      }
+    ],
+    "at": "2026-06-17T13:28:41.851Z"
+  },
+  {
+    "sentenceId": "r6",
+    "framing": "isolated",
+    "model": "gpt-4o-mini",
+    "corrections": [
+      {
+        "original": "頂戴してもよろしいでしょうか。",
+        "suggestion": "頂戴してもいいですか。",
+        "errorClass": "register",
+        "explanation": "親しい相手に対しては、もっとカジュアルな表現を使った方が自然です。"
+      }
+    ],
+    "at": "2026-06-17T13:28:44.424Z"
+  },
+  {
+    "sentenceId": "r6",
+    "framing": "framed",
+    "model": "gpt-4o-mini",
+    "corrections": [
+      {
+        "original": "頂戴してもよろしいでしょうか。",
+        "suggestion": "もらってもいいですか。",
+        "errorClass": "register",
+        "explanation": "親しい友達に対しては、もっとカジュアルな言い方が自然です。"
+      }
+    ],
+    "at": "2026-06-17T13:28:45.782Z"
   },
   {
     "sentenceId": "cc1",
     "framing": "isolated",
     "model": "gpt-4o-mini",
     "corrections": [],
-    "at": "2026-06-17T02:02:24.516Z"
+    "at": "2026-06-17T13:28:46.400Z"
   },
   {
     "sentenceId": "cc1",
     "framing": "framed",
     "model": "gpt-4o-mini",
     "corrections": [],
-    "at": "2026-06-17T02:02:26.041Z"
+    "at": "2026-06-17T13:28:48.202Z"
   },
   {
     "sentenceId": "cc2",
     "framing": "isolated",
     "model": "gpt-4o-mini",
     "corrections": [],
-    "at": "2026-06-17T02:02:26.569Z"
+    "at": "2026-06-17T13:28:50.436Z"
   },
   {
     "sentenceId": "cc2",
     "framing": "framed",
     "model": "gpt-4o-mini",
     "corrections": [],
-    "at": "2026-06-17T02:02:27.085Z"
+    "at": "2026-06-17T13:28:51.025Z"
   },
   {
     "sentenceId": "cc3",
     "framing": "isolated",
     "model": "gpt-4o-mini",
     "corrections": [],
-    "at": "2026-06-17T02:02:27.567Z"
+    "at": "2026-06-17T13:28:51.462Z"
   },
   {
     "sentenceId": "cc3",
     "framing": "framed",
     "model": "gpt-4o-mini",
     "corrections": [],
-    "at": "2026-06-17T02:02:28.144Z"
+    "at": "2026-06-17T13:28:51.933Z"
   },
   {
     "sentenceId": "cc4",
     "framing": "isolated",
     "model": "gpt-4o-mini",
     "corrections": [],
-    "at": "2026-06-17T02:02:28.823Z"
+    "at": "2026-06-17T13:28:52.392Z"
   },
   {
     "sentenceId": "cc4",
     "framing": "framed",
     "model": "gpt-4o-mini",
     "corrections": [],
-    "at": "2026-06-17T02:02:29.388Z"
+    "at": "2026-06-17T13:28:52.821Z"
   },
   {
     "sentenceId": "cc5",
     "framing": "isolated",
     "model": "gpt-4o-mini",
     "corrections": [],
-    "at": "2026-06-17T02:02:30.332Z"
+    "at": "2026-06-17T13:28:53.438Z"
   },
   {
     "sentenceId": "cc5",
     "framing": "framed",
     "model": "gpt-4o-mini",
     "corrections": [],
-    "at": "2026-06-17T02:02:30.804Z"
+    "at": "2026-06-17T13:28:54.075Z"
   },
   {
     "sentenceId": "cc6",
     "framing": "isolated",
     "model": "gpt-4o-mini",
     "corrections": [],
-    "at": "2026-06-17T02:02:31.363Z"
+    "at": "2026-06-17T13:28:54.558Z"
   },
   {
     "sentenceId": "cc6",
     "framing": "framed",
     "model": "gpt-4o-mini",
     "corrections": [],
-    "at": "2026-06-17T02:02:31.836Z"
+    "at": "2026-06-17T13:28:55.016Z"
   },
   {
     "sentenceId": "cc7",
     "framing": "isolated",
     "model": "gpt-4o-mini",
     "corrections": [],
-    "at": "2026-06-17T02:02:32.336Z"
+    "at": "2026-06-17T13:28:55.681Z"
   },
   {
     "sentenceId": "cc7",
     "framing": "framed",
     "model": "gpt-4o-mini",
     "corrections": [],
-    "at": "2026-06-17T02:02:33.073Z"
+    "at": "2026-06-17T13:28:56.207Z"
   },
   {
     "sentenceId": "cc8",
     "framing": "isolated",
     "model": "gpt-4o-mini",
     "corrections": [],
-    "at": "2026-06-17T02:02:33.588Z"
+    "at": "2026-06-17T13:28:57.901Z"
   },
   {
     "sentenceId": "cc8",
     "framing": "framed",
     "model": "gpt-4o-mini",
     "corrections": [],
-    "at": "2026-06-17T02:02:34.109Z"
+    "at": "2026-06-17T13:28:58.478Z"
   },
   {
     "sentenceId": "cc9",
     "framing": "isolated",
     "model": "gpt-4o-mini",
     "corrections": [],
-    "at": "2026-06-17T02:02:34.760Z"
+    "at": "2026-06-17T13:28:59.372Z"
   },
   {
     "sentenceId": "cc9",
     "framing": "framed",
     "model": "gpt-4o-mini",
     "corrections": [],
-    "at": "2026-06-17T02:02:35.296Z"
+    "at": "2026-06-17T13:28:59.897Z"
+  },
+  {
+    "sentenceId": "cr1",
+    "framing": "isolated",
+    "model": "gpt-4o-mini",
+    "corrections": [],
+    "at": "2026-06-17T13:29:00.632Z"
+  },
+  {
+    "sentenceId": "cr1",
+    "framing": "framed",
+    "model": "gpt-4o-mini",
+    "corrections": [],
+    "at": "2026-06-17T13:29:01.076Z"
+  },
+  {
+    "sentenceId": "cr2",
+    "framing": "isolated",
+    "model": "gpt-4o-mini",
+    "corrections": [],
+    "at": "2026-06-17T13:29:01.468Z"
+  },
+  {
+    "sentenceId": "cr2",
+    "framing": "framed",
+    "model": "gpt-4o-mini",
+    "corrections": [],
+    "at": "2026-06-17T13:29:02.327Z"
   }
 ]
